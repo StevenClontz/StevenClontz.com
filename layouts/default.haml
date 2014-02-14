@@ -1,0 +1,26 @@
+!!!
+%html{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}/
+    %title
+      = @item[:title]
+      | StevenClontz.com
+    %link{href: "/assets/bootswatch-flatly.css", rel: "stylesheet"}/
+    %link{href: "/assets/style.css", rel: "stylesheet"}/
+    / you don't need to keep this, but it's cool for stats!
+    %meta{content: "nanoc #{Nanoc::VERSION}", name: "generator"}/
+  %body
+    - if @item.identifier == '/'
+      .jumbotron
+        .container
+          %h1 StevenClontz.com
+          %h4 A bit about math, code, teaching, games, and puzzles.
+    - else
+      .navbar.navbar-inverse.navbar-fixed-top
+        .container
+          .navbar-header
+            %a.navbar-brand{ href:"/" } StevenClontz.com
+    #main.container
+      - unless @item.identifier == "/"
+        %h2= @item[:title]
+      = yield

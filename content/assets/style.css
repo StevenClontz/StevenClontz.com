@@ -1,0 +1,13 @@
+.jumbotron {
+  background-color: #18bc9c;
+  border-color: #128f76;
+  color: #ffffff;
+}
+
+.jumbotron h4 {
+  color: #2c3e50;
+}
+
+#main {
+  margin-top: 60px;
+}
