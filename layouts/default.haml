@@ -1,31 +1,29 @@
 !!!
 %html{lang: "en"}
-  %head
-    %meta{charset: "utf-8"}/
-    %title
-      = @item[:title]
-      | StevenClontz.com
-    %link{href: "/assets/bootswatch-flatly.css", rel: "stylesheet"}/
-    %link{href: "/assets/style.css", rel: "stylesheet"}/
-    / you don't need to keep this, but it's cool for stats!
-    %meta{content: "nanoc #{Nanoc::VERSION}", name: "generator"}/
+  - render "_head" do end
+
   %body
-    - if @item.identifier == '/'
-      .jumbotron
-        .container
-          %h1 StevenClontz.com
-          %h4 A bit about math, teaching, code, and puzzles.
-    - else
-      .navbar.navbar-inverse.navbar-fixed-top
-        .container
-          .navbar-header
-            %a.navbar-brand{ href:"/" } StevenClontz.com
+    .navbar.navbar-inverse.navbar-fixed-top
+      .container
+        .navbar-header
+          %a.navbar-brand{ href:"/" } StevenClontz.com
+        .navbar-collapse.collapse.navbar-inverse-collapse
+          %ul.nav.navbar-nav
+            %li
+              %a{href:"/math/"} Math
+            %li
+              %a{href:"/teaching/"} Teaching
+            %li
+              %a{href:"/code/"} Code
+            %li
+              %a{href:"/puzzles/"} Puzzles
+          %ul.nav.navbar-nav.navbar-right
+            %li
+              %a{href:"/blog/"} Blog
+            %li
+              %a{href:"/about/"} About Me
     #main.container
-      - unless @item.identifier == "/"
-        %h2= @item[:title]
+      %h2= @item[:title]
       = yield
-    %section#footer.container
-      Content &copy;
-      = Date.today.strftime("%Y")
-      Steven Clontz | Powered by 
-      %a{href: 'http://nanoc.ws'} nanoc
+
+    - render "_foot" do end

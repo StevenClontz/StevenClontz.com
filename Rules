@@ -13,15 +13,30 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+# Add page descriptions
+preprocess do
+  items.each do |item|
+    unless item[:description]
+      item[:description] = @config[:site_description]
+    end
+  end
+end
 
 # Static Files
 compile '/assets/*' do
 end
 
 route '/assets/*' do
+  # No routing rewrite
   item.identifier.chop + '.' + item[:extension]
 end
 
+
+# Home Page
+compile '/' do
+  filter :kramdown
+  layout 'jumbo'
+end
 
 # Website Pages
 compile '*' do

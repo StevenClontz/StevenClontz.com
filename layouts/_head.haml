@@ -1,0 +1,17 @@
+%head
+  %meta{charset: "utf-8"}
+  %title
+    = @item[:title]
+    | 
+    = @config[:site_title]
+
+  %link{href: "/assets/bootswatch-flatly.css", rel: "stylesheet"}
+  %link{href: "/assets/style.css", rel: "stylesheet"}
+  %link{rel: "canonical", href:"http://www.stevenclontz.com/"}
+
+  %meta{description: @item[:description]}
+  %meta{name: "generator", content: "nanoc #{Nanoc::VERSION}"}
+  %meta{name:"author", content:"Steven Clontz"}
+  %meta{name:"viewport", content:"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"}
+  %meta{property:"og:image", content:"http://i.imgur.com/CKetep2.jpg"}
+  %meta{property:"og:description", content:@item[:description]}
