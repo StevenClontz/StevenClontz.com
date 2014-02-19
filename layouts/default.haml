@@ -24,3 +24,8 @@
       - unless @item.identifier == "/"
         %h2= @item[:title]
       = yield
+    %section#footer.container
+      Content &copy;
+      = Date.today.strftime("%Y")
+      Steven Clontz | Powered by 
+      %a{href: 'http://nanoc.ws'} nanoc
