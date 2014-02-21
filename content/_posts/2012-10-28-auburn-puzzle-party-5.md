@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Auburn Puzzle Party 5"
-date: 2012-10-28 23:11
-comments: true
-categories: 
+
+created_at: 2012-10-28 23:11
+
 ---
 
 In case you hadn't heard me talk about it yet, [here's my wrap-up of Auburn Puzzle Party 5](http://auburnpuzzleparty.wikia.com/wiki/APP5_Wrap-Up) on the Auburn Puzzle Party wiki.

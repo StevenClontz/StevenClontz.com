@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "How many distinct outcomes in bowling?"
-date: 2012-12-19 22:59
-comments: true
-categories: 
+
+created_at: 2012-12-19 22:59
+
 ---
 
 Today I played my final game of bowling in the "Math Nerd League 2012". And maybe my first - I don't know if that moniker was in use before today, but it was used to designate the group of my colleagues in the [Auburn University mathematics graduate program](http://math.auburn.edu/) who went this afternoon.

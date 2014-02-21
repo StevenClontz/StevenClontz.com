@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "9 Hours, 9 Persons, 9 Doors"
-date: 2012-11-05 13:33
-comments: true
-categories: 
+
+created_at: 2012-11-05 13:33
+
 ---
 
 Having spent a lot of my weekend playing it (after representing Teloga at the [26th Annual Auburn Alumni Band Reunion](http://teloga.com/networks/aubands/alumni-band/fall-2012/)), I wanted to make a quick, mostly spoiler-free post about [*999: 9 Hours, 9 Persons, 9 Doors*](http://en.wikipedia.org/wiki/999:_Nine_Hours,_Nine_Persons,_Nine_Doors) (2010). It's a visual novel / room escape / puzzle / adventure game for the Nintendo DS.

@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Complex exponents"
-date: 2013-12-28 01:15
-comments: true
-categories: 
+
+created_at: 2013-12-28 01:15
+
 ---
 
 As usual, since I spent some time writing this up on [/r/learnmath](http://www.reddit.com/r/learnmath/), I'd like to share it with you guys. The OP asks:

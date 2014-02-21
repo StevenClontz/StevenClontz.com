@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "LaTeX is turing complete!"
-date: 2012-12-15 09:24
-comments: true
-categories: 
+
+created_at: 2012-12-15 09:24
+
 ---
 
 So, I knew [LaTeX](http://en.wikipedia.org/wiki/LaTeX) was the best mathematical markup out there, but I didn't realize it was Turing complete. Here's an article that shows how to compute the Fibonacci sequence:

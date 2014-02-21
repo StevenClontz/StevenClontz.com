@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Stats which will surprise no one"
-date: 2013-12-26 20:56
-comments: true
-categories: 
+
+created_at: 2013-12-26 20:56
+
 ---
 
 Since I recently relaunched my [grade calculator website](http://gradecalc.stevenclontz.com) I wanted to see how the month of finals affected my traffic.

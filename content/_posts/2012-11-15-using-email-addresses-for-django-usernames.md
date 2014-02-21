@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Using email addresses for Django usernames"
-date: 2012-11-15 12:58
-comments: true
-categories: 
+
+created_at: 2012-11-15 12:58
+
 ---
 
 [Django](https://www.djangoproject.com/) is a great Python framework for database-driven sites. It's what we use for [Teloga](http://www.teloga.com) in fact. But there's one thing that bugs me: usernames are case-sensitive.

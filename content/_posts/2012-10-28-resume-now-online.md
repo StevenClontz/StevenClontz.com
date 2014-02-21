@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Marked-down resume"
-date: 2012-10-28 23:30
-comments: true
-categories: 
+
+created_at: 2012-10-28 23:30
+
 ---
 
 A project that had been almost as long overdue as reviving <http://www.stevenclontz.com> was updating my neglected resume.

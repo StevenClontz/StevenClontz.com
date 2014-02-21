@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "GradeCalc"
-date: 2013-11-04 20:57
-comments: true
-categories: 
+
+created_at: 2013-11-04 20:57
+
 ---
 
 It's been way too long since I updated, but I wanted to share the revival of my most popular app: [GradeCalc](http://gradecalc.stevenclontz.com). Development notes follow.

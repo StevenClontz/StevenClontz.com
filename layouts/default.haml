@@ -1,29 +1,16 @@
 !!!
 %html{lang: "en"}
-  - render "_head" do end
+  = render "_head"
 
   %body
-    .navbar.navbar-inverse.navbar-fixed-top
-      .container
-        .navbar-header
-          %a.navbar-brand{ href:"/" } StevenClontz.com
-        .navbar-collapse.collapse.navbar-inverse-collapse
-          %ul.nav.navbar-nav
-            %li
-              %a{href:"/math/"} Math
-            %li
-              %a{href:"/teaching/"} Teaching
-            %li
-              %a{href:"/code/"} Code
-            %li
-              %a{href:"/puzzles/"} Puzzles
-          %ul.nav.navbar-nav.navbar-right
-            %li
-              %a{href:"/blog/"} Blog
-            %li
-              %a{href:"/about/"} About Me
+    = render "_navbar"
+
     #main.container
       %h2= @item[:title]
       = yield
 
-    - render "_foot" do end
+      - if @item[:blog_index]
+        - sorted_articles.each do |article|
+          = render "_blog_preview", article: article
+
+    = render "_foot"

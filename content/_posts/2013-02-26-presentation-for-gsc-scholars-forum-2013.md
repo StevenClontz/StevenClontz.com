@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Presentation for GSC Scholars' Forum 2013"
-date: 2013-02-26 19:54
-comments: true
-categories: 
+
+created_at: 2013-02-26 19:54
+
 ---
 
 I will be presenting my research tomorrow morning (2013-02-27) for the Graduate Student Council Scholars' Forum, a preliminary event for AU Research Week. It's intended to showcase graduate student research for a general audience.

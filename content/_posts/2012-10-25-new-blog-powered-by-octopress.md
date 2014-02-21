@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "New blog powered by Octopress"
-date: 2012-10-25 08:40
-comments: true
-categories: 
+
+created_at: 2012-10-25 08:40
+
 ---
 
 Hey everyone! Thanks for checking out my new blog*. After deciding I didn't need to waste so much cash on domain names I don't use and web space I barely needed, I took down stevenclontz.com along with most of my other old PHP/Wordpress sites. I'll get stevenclontz.com to point here sometime soon.

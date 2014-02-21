@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "6÷2(1+2)=?"
-date: 2013-03-17 17:05
-comments: true
-categories: 
+
+created_at: 2013-03-17 17:05
+
 ---
 
 This is a problem that's been thrown around the Facebook recently it seems. Man, it seems so simple:

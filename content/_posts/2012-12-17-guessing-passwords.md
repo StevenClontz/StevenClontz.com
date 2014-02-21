@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Guessing passwords"
-date: 2012-12-17 11:18
-comments: true
-categories: 
+
+created_at: 2012-12-17 11:18
+
 ---
 
 There's not any deep cryptography going on here, but since I spent 15 minutes answering this person on [/r/askmath](http://www.reddit.com/r/askmath/comments/14zzhw/i_guessed_the_password_on_my_moms_computer_snot/), and nobody reads /r/askmath, I'd take the time to cross-post it here.

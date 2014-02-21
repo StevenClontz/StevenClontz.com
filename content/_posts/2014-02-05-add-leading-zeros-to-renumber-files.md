@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Add leading zeros to renumber files"
-date: 2014-02-05 10:48
-comments: true
-categories: 
+
+created_at: 2014-02-05 10:48
+
 ---
 
 A quick one... pretty simple but I wanted to make note of it.

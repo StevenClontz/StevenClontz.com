@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Teacher Evaluations Spring 2013"
-date: 2013-05-07 12:41
-comments: true
-categories: 
+
+created_at: 2013-05-07 12:41
+
 ---
 
 > Steven Clontz is the best professor I've had at Auburn thus far.

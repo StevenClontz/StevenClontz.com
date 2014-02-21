@@ -13,14 +13,16 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+
+
 # Add page descriptions
 preprocess do
   items.each do |item|
-    unless item[:description]
-      item[:description] = @config[:site_description]
-    end
+    item[:description] ||= @config[:site_description]
   end
 end
+
+
 
 # Static Files
 compile '/assets/*' do
@@ -32,21 +34,22 @@ route '/assets/*' do
 end
 
 
+
 # Home Page
 compile '/' do
-  filter :kramdown
+  filter_page
   layout 'jumbo'
 end
 
 # Website Pages
 compile '*' do
-  if item[:extension] == "md"
-    filter :erb
-    filter :kramdown
-  else
-    filter :haml
-  end
+  filter_page
   layout 'default'
+end
+
+# Blog Posts
+route '/_posts/*/' do
+  "/blog#{item.identifier[7..-1]}index.html"
 end
 
 route '*' do
@@ -54,4 +57,5 @@ route '*' do
   item.identifier + 'index.html'
 end
 
+# All layouts are haml
 layout '*', :haml

@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "E.T.'s March"
-date: 2013-02-05 10:39
-comments: true
-categories: 
+
+created_at: 2013-02-05 10:39
+
 ---
 
 Back when I was in undergrad, some friends and I decided to spend our Spring Break taking a road trip to Alamogordo, New Mexico, to make a documentary about the Atari E.T. game failure. Long story short, the game was a flop, and according to the folklore millions of copies were buried in a landfill in that city.

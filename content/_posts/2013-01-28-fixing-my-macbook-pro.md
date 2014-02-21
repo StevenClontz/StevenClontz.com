@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Fixing my Macbook Pro - replacing hard drive SATA cable"
-date: 2013-01-28 16:12
-comments: true
-categories: 
+
+created_at: 2013-01-28 16:12
+
 ---
 
 So, about two weeks ago [I found myself without a working hard drive](https://www.facebook.com/steven.clontz/posts/10101144733985781) on my Macbook Pro (13", mid-2008). That's what I thought anyway [until the hard drive turned out to work fine in an external enclosure](https://www.facebook.com/steven.clontz/posts/10101146355955341). 

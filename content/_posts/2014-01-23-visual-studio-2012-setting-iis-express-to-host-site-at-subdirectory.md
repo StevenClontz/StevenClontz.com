@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Visual Studio 2012 - Setting IIS Express to host site at subdirectory"
-date: 2014-01-23 10:07
-comments: true
-categories: 
+
+created_at: 2014-01-23 10:07
+
 ---
 
 UPDATE: This is a terrible way to get this working, as I thankfully discovered.

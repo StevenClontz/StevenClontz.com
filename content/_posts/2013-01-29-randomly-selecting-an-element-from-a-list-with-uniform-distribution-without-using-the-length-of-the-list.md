@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Randomly selecting a line of input with uniform distribution without knowing how many lines to expect"
-date: 2013-01-29 10:44
-comments: true
-categories: 
+
+created_at: 2013-01-29 10:44
+
 ---
 
 Man that title is a mouthful. The concept is simple, but putting it to words takes a bit of work (I think - let me know if you can put it more succinctly!).

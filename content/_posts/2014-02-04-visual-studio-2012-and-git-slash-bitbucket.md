@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Visual Studio 2012 and Git / Bitbucket"
-date: 2014-02-04 15:43
-comments: true
-categories: 
+
+created_at: 2014-02-04 15:43
+
 ---
 
 Another write-up for something I'm doing for work. Actually, this one

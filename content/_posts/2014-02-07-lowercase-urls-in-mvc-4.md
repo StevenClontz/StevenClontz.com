@@ -1,9 +1,9 @@
 ---
-layout: post
+kind: article
 title: "Lowercase URLs in MVC 4"
-date: 2014-02-07 13:51
-comments: true
-categories: 
+
+created_at: 2014-02-07 13:51
+
 ---
 
 More adventures in .NET. Here's a couple of code snippets to enforce 
