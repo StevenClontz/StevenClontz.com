@@ -1,3 +1,11 @@
-%hr
-%h3
-  = link_to(article[:title], article)
+.panel.panel-default
+  .panel-body
+    %h3
+      = link_to article[:title], article
+    %h4
+      %small
+        Posted on
+        = Date.parse(article[:created_at]).strftime('%Y-%m-%d')
+    = Kramdown::Document.new(article.raw_preview).to_html
+    - if article.has_preview?
+      = link_to "Read more...", article, :class => 'btn btn-primary'

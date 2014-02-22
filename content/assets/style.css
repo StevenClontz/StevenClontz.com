@@ -4,7 +4,7 @@
   color: #ffffff;
 }
 
-.jumbotron h4 {
+.jumbotron h4, .jumbotron h5 {
   color: #2c3e50;
 }
 
@@ -19,4 +19,37 @@ section {
 #footer {
   font-size: 0.8em;
   text-align: center;
+  margin-bottom: 1em;
+}
+
+#content img {
+  display: block;
+  margin: auto;
+  border: 1px solid #ddd;
+  padding: 5px;
+  max-width: 75%;
+  max-height: 50%;
+}
+
+.panel-heading a {
+  color:inherit;
+}
+
+.jumbotron .quick-links {
+  /*text-align: center;*/
+  font-size: 0.9em;
+}
+
+.jumbotron .quick-links a {
+  color: inherit;
+}
+
+.jumbotron .quick-links span+span:before {
+  /*color: #2c3e50;*/
+  content:" | ";
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color:#fff;
+  cursor: default;
 }

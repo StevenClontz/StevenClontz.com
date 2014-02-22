@@ -1,7 +1,7 @@
 ---
 kind: article
 title: "Changing file extensions in the terminal"
-created_at: 2014-02-24 17:01
+created_at: 2014-02-21 17:01
 ---
 
 So I can't exactly publish this while I'm in the middle of moving my site

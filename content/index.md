@@ -2,7 +2,7 @@
 title: Home
 ---
 
-Welcome! If you want to learn more about me, this is the 
+If you want to learn more about me, this is the 
 place. The short version: I'm a mathematician and teacher who does web 
 development, designing puzzles between writing code, teaching math, 
 and doing research.

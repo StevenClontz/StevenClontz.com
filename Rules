@@ -49,7 +49,12 @@ end
 
 # Blog Posts
 route '/_posts/*/' do
-  "/blog#{item.identifier[7..-1]}index.html"
+  date = Date.parse item[:created_at]
+  year = "%04d" % date.year
+  month = "%02d" % date.month
+  day = "%02d" % date.day
+  slug = item.identifier.split('/')[-1][11..-1]
+  "/blog/#{year}/#{month}/#{day}/#{slug}/index.html"
 end
 
 route '*' do

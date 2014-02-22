@@ -6,11 +6,32 @@
     = render "_navbar"
 
     #main.container
-      %h2= @item[:title]
-      = yield
+      - if @item[:kind] == "article"
+        .row
+          .col-sm-offset-2.col-sm-8
+            .alert.alert-info
+              Apologies, but I just transitioned to a new framework, 
+              so some old blog posts may not display correctly yet!
+              / TODO
+        %p
+          %a{href:"/blog/"} ^ Back to Blog index
+      %h1= @item[:title]
+      - if @item[:kind] == "article"
+        %h4
+          %small
+            Posted on
+            = Date.parse(@item[:created_at]).strftime('%Y-%m-%d')
+      #content
+        = yield
+
+      %p
+        %small
+          %em 
+            Last updated on #{item[:mtime].strftime('%Y-%m-%d')}.
 
       - if @item[:blog_index]
-        - sorted_articles.each do |article|
-          = render "_blog_preview", article: article
+        %section
+          - sorted_articles.each do |article|
+            = render "_blog_preview", article: article
 
     = render "_foot"
