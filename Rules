@@ -39,12 +39,14 @@ end
 compile '/' do
   filter_page
   layout 'jumbo'
+  filter :relativize_paths, type: :html
 end
 
 # Website Pages
 compile '*' do
   filter_page
   layout 'default'
+  filter :relativize_paths, type: :html
 end
 
 # Blog Posts
