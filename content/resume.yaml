@@ -1,0 +1,26 @@
+---
+# personal data
+bio:
+  name: Steven Clontz
+  address: "2428 E University Dr. #910"
+  city: Auburn
+  state: Alabama
+  zip: 36830
+  email: steven.clontz@gmail.com
+  website: http://stevenclontz.com
+  about:
+    - | 
+        Doctoral candidate in Mathematics at Auburn University, studying limited 
+        information strategies in topological games. Has a strong emphasis on 
+        pedagogy and outreach in addition to research.
+    - |
+        Professional web developer, using languages including Python and Ruby, and
+        frameworks including Django, Rails, and nanoc.
+    - |       
+        Accomplished puzzle and game designer, organizing several puzzlehunts 
+        in the Auburn, AL area as well as founding the Auburn Mathematical Puzzle
+        Challenge outreach event for Auburn University.
+    - |
+        Experienced leader, including roles as AU Graduate Student Council 
+        President and course director of a BSA National Youth Leadership Training 
+        camp at age 19.

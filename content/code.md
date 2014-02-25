@@ -2,7 +2,7 @@
 title: Code
 ---
 
-I have more to put here, but for now this page just showcases some examples of my work in web development and design. My full resume can be found at <http://resume.stevenclontz.com>.
+I have more to put here, but for now this page just showcases some examples of my work in web development and design. My full resume can be found at <http://resume.stevenclontz.com>. Check out my GitHub account at [@StevenClontz](http://github.com/StevenClontz).
 
 ## StevenClontz.com
 
