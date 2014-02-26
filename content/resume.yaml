@@ -8,19 +8,89 @@ bio:
   zip: 36830
   email: steven.clontz@gmail.com
   website: http://stevenclontz.com
-  about:
-    - | 
-        Doctoral candidate in Mathematics at Auburn University, studying limited 
-        information strategies in topological games. Has a strong emphasis on 
-        pedagogy and outreach in addition to research.
-    - |
-        Professional web developer, using languages including Python and Ruby, and
-        frameworks including Django, Rails, and nanoc.
-    - |       
-        Accomplished puzzle and game designer, organizing several puzzlehunts 
-        in the Auburn, AL area as well as founding the Auburn Mathematical Puzzle
-        Challenge outreach event for Auburn University.
-    - |
-        Experienced leader, including roles as AU Graduate Student Council 
-        President and course director of a BSA National Youth Leadership Training 
-        camp at age 19.
+  about: >+
+    Doctoral candidate in Mathematics at Auburn University, studying limited 
+    information strategies in topological games. Has a strong emphasis on 
+    pedagogy and outreach in addition to research.
+    
+    Professional web developer, using languages including Python and Ruby, and
+    frameworks including Django, Rails, and nanoc.
+    
+    Accomplished puzzle and game designer, organizing several puzzlehunts 
+    in the Auburn, AL area as well as founding the Auburn Mathematical Puzzle
+    Challenge outreach event for Auburn University.
+    
+    Experienced leader, including roles as AU Graduate Student Council 
+    President and course director of a BSA National Youth Leadership Training 
+    camp at age 19.
+
+# educational data
+education:
+  - institution: Auburn University
+    location: "Auburn, AL"
+    url: http://www.auburn.edu
+    degree: Bachelor of Science in Mathematics
+    start_year: 2004
+    end_year: 2008
+    about:
+      - Summa Cum Laude | University Honors Scholar | Dean's Medalist
+      - Phi Kappa Phi | Phi Beta Kappa
+      - |
+        Honors thesis on unfoldings of convex polyhedra | Undergraduate 
+        Research Fellow
+  - institution: Auburn University
+    location: "Auburn, AL"
+    url: http://www.auburn.edu
+    degree: Master of Science in Mathematics
+    start_year: 2008
+    end_year: 2010
+    about:
+      - |
+        Thesis on stationary subsets of linearly ordered topological spaces 
+        (LOTS)
+  - institution: Auburn University
+    location: "Auburn, AL"
+    url: http://www.auburn.edu
+    degree: Doctoral Candidate in Mathematics
+    start_year: 2010
+    about:
+      - |
+        Dissertation being written on limited information strategies in 
+        topological games
+      - |
+        2013 Fitzpatrick Fellow for Auburn graduate students excelling in the 
+        field of topology
+
+# sections describing experience
+topics:
+  - name: Research
+    summary: >+
+      Research interests include set theoretic topology and game theory, 
+      particularly using the existence of perfect or limited-information strategies 
+      in topological games to characterize topological properties of spaces. 
+      
+      Past research includes polyhedral unfoldings within solid geometry and the 
+      structure of linearly ordered topological spaces.
+    topics:
+      - name: Papers
+        items:
+          - >+
+            *The Edge Unfolding of Generalized Pyramids* 
+            (Undergraduate honors thesis, April 2008)
+            
+            Advisor: Andras Bezdek
+          - >+
+            *Applications of Stationary Sets in Set Theoretic Topology* 
+            (Masters thesis, October 2010)
+            
+            Advisor: Gary Gruenhage
+          - >+
+            *Proximal Compact Spaces are Corson Compact* 
+            (Journal article, submitted) 
+            
+            Co-author: Gary Gruenhage
+          - >+
+            *Limited Information Strategies for Topological Games* 
+            (PhD dissertation, in progress)
+            
+            Advisor: Gary Gruenhage
