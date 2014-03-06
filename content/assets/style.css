@@ -53,3 +53,11 @@ section {
   color:#fff;
   cursor: default;
 }
+
+.panel {
+  border-radius: 0;
+}
+
+.panel-heading {
+  border-radius: 0;
+}
