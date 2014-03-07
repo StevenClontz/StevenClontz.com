@@ -1,0 +1,8 @@
+%html
+  %head
+    %meta{"http-equiv" => "Refresh", content:"0; url=#{relative_path_to @item[:redirect_to]}"}
+  %body
+    %p 
+      Redirect to
+      %a{href:"#{relative_path_to @item[:redirect_to]}"}
+        = relative_path_to @item[:redirect_to]

@@ -25,28 +25,41 @@ end
 
 
 # Static Files
-compile '/assets/*' do
+compile '/assets/*/' do
 end
 
-route '/assets/*' do
+route '/assets/*/' do
   # No routing rewrite
   item.identifier.chop + '.' + item[:extension]
 end
 
 
+# Redirects
+compile '/redirects/*/' do
+  layout 'redirect'
+end
+
+route '/redirects/*/' do
+  item.identifier[10..-1] + 'index.html'
+end
+
 
 # Home Page
 compile '/' do
-  filter_page
+  filter_by_extension
   layout 'jumbo'
   filter :relativize_paths, type: :html
 end
 
 # Website Pages
 compile '*' do
-  filter_page
-  layout 'default'
-  filter :relativize_paths, type: :html
+  filter_by_extension
+  if @item[:redirect_to]
+    layout 'redirect'
+  else
+    layout 'default'
+    filter :relativize_paths, type: :html
+  end
 end
 
 # Blog Posts

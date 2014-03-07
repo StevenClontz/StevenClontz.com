@@ -7,15 +7,13 @@
 
     #main.container
       - if @item[:kind] == "article"
-        .row
-          .col-sm-offset-2.col-sm-8
-            .alert.alert-info
-              Apologies, but I just transitioned to a new framework, 
-              so some old blog posts may not display correctly yet!
-              / TODO
-        %p
-          %a{href:"/blog/"} ^ Back to Blog index
-      %h1= @item[:title]
+        %h1
+          Blog
+          %small
+            %a{href:"/blog/"} [Back to index]
+        %h2= @item[:title]
+      - else
+        %h1= @item[:title]
       - if @item[:kind] == "article"
         %h4
           %small

@@ -7,7 +7,7 @@ include Nanoc::Helpers::LinkTo
 
 
 # Helper to filter pages by extension
-def filter_page
+def filter_by_extension
   if item[:extension] == "haml"
     filter :haml
   else

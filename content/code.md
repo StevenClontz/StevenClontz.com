@@ -14,10 +14,6 @@ Since then, however, I've made the switch to [nanoc](http://nanoc.ws).
 Check out 
 [the source on GitHub](http://github.com/StevenClontz/StevenClontz.com)!
 
-$$ O \uparrow \text{Con}_{O,P}(X,x) $$
-
-$$ V = \int_a^b A(x)\,dx $$
-
 ## Auburn University Bands
 
 [![](http://i.imgur.com/cOgUUhu.png)](https://web.archive.org/web/20101231000533/http://band.auburn.edu/)
@@ -47,7 +43,7 @@ viewable at <http://auburn.edu/gsc>.
 
 In 2012, [James Dabbs](http://www.jdabbs.com) and I cofounded **Teloga Musician Networks**, an online social network for helping music orgnaizations (such as high school or university band programs) manage their membership. The current incarnation of the site is based on the [Django framework](https://www.djangoproject.com/) and an adaptation of the [Twitter Bootstrap](http://twitter.github.com/bootstrap/) theme.
 
-We are currently refactoring the site from scratch, and will release a [Ruby on Rails](http://rubyonrails.org/) based redesign early in 2014.
+We are currently refactoring the site from scratch, and will release a [Ruby on Rails](http://rubyonrails.org/) based redesign in 2014.
 
 ## Puzzle Console
 
