@@ -64,6 +64,7 @@ section {
 
 .CodeRay pre {
   border-radius: 0;
+  background-color: #f8f8f8;
 }
 
 .CodeRay .line-numbers pre {
