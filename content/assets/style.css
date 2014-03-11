@@ -61,3 +61,15 @@ section {
 .panel-heading {
   border-radius: 0;
 }
+
+.CodeRay pre {
+  border-radius: 0;
+}
+
+.CodeRay .line-numbers pre {
+  border-right: 0;
+}
+
+.CodeRay .code pre {
+  border-left: 0;
+}

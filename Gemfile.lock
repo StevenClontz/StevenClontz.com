@@ -51,6 +51,7 @@ GEM
       ffi (>= 0.5.0)
     ref (1.0.5)
     slop (3.4.7)
+    slugify (1.0.5)
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
@@ -68,4 +69,5 @@ DEPENDENCIES
   kramdown
   nanoc (= 3.6.7)
   nokogiri
+  slugify
   therubyracer

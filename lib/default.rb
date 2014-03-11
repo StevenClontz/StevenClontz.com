@@ -12,7 +12,7 @@ def filter_by_extension
     filter :haml
   else
     filter :erb
-    filter :kramdown
+    filter :kramdown, coderay_line_numbers: :table
   end
 end
 

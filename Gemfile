@@ -8,3 +8,4 @@ gem 'haml-kramdown'# for kramdown in haml
 gem 'therubyracer'
 gem 'guard-nanoc'
 gem 'nokogiri' # for relative linking
+gem 'slugify' # for slugs
