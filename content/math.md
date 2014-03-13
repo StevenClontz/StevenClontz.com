@@ -57,3 +57,7 @@ out
 which Gary Gruenhage wrote to describe a different game which
 he designed as a part of his dissertation, and many of its applications found 
 down the road.
+
+## What I've Done
+
+A good overview of my research can be found in my [CV](/resume/).

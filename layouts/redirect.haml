@@ -1,8 +1,13 @@
+- if @item[:redirect_to][0] == '/'
+  - redirect_url = relative_path_to @item[:redirect_to]
+- else
+  - redirect_url = @item[:redirect_to]
+
 %html
   %head
-    %meta{"http-equiv" => "Refresh", content:"0; url=#{relative_path_to @item[:redirect_to]}"}
+    %meta{"http-equiv" => "Refresh", content:"0; url=#{redirect_url}"}
   %body
     %p 
-      Redirect to
-      %a{href:"#{relative_path_to @item[:redirect_to]}"}
-        = relative_path_to @item[:redirect_to]
+      Redirect_url to
+      %a{href:"#{redirect_url}"}
+        = redirect_url

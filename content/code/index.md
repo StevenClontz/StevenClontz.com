@@ -54,7 +54,7 @@ The site is a product of Teloga, LLC, co-founded by my buddy
 [James Dabbs](http://jdabbs.com) and myself. In addition to the software
 engineering experience it's given me, I've also been in charge of Teloga's
 sales and support. I talk a bit more about it in my 
-[portfolio](web/#teloga-musician-networks).
+[portfolio](web/).
 
 
 
