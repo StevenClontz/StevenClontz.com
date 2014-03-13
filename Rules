@@ -22,9 +22,11 @@ preprocess do
     item[:title] ||= "Blank Title"
   end
   
-  items << Nanoc::Item.new( "stevenclontz.com",
-                            { :title => 'cname' },
-                            "/CNAME/" )
+  unless items.find { |i| i.identifier == '/CNAME/' }
+    items << Nanoc::Item.new( 'stevenclontz.com',
+                              {}, #no attributes
+                              '/CNAME/' )
+  end
 end
 
 
