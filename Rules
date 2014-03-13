@@ -19,7 +19,12 @@
 preprocess do
   items.each do |item|
     item[:description] ||= @config[:site_description]
+    item[:title] ||= "Blank Title"
   end
+  
+  items << Nanoc::Item.new( "stevenclontz.com",
+                            { :title => 'cname' },
+                            "/CNAME/" )
 end
 
 
@@ -41,6 +46,13 @@ end
 
 route '/redirects/*/' do
   item.identifier[10..-1] + 'index.html'
+end
+
+# GitHub CNAME
+compile '/CNAME/' do
+end #no compilation
+route '/CNAME/' do
+  '/CNAME'
 end
 
 
