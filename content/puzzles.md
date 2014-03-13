@@ -10,7 +10,7 @@ I'm active in the puzzle community in Auburn, so much so that I
 Well, not jigsaw puzzles...
 
 {::nomarkdown}
-<div style="text-align:center;">
+<div class="youtube">
 <iframe width="560" height="315" style="max-width:100%" src="//www.youtube.com/embed/KrL5WV7TxYI" frameborder="0" allowfullscreen></iframe>
 </div>
 {:/nomarkdown}
@@ -20,11 +20,9 @@ to a location on or near Auburn University's campus. Have fun!
 
 ## What's so cool about puzzles?
 
-It's what I [studied in school](/math/). Not literally, although there
-is at least one 
-[enigmatology graduate](http://en.wikipedia.org/wiki/Will_Shortz) in the world.
-Rather, I came to puzzles as a mathematician, because **mathematics is the art of problem solving**, and **puzzle design is the art of
-creating fun problems to solve**.
+It's what I [studied in school](/math/). I came to puzzles as a mathematician, 
+because **mathematics is the art of problem solving**, and **puzzle design 
+is the art of creating fun problems to solve**.
 
 ## Puzzlehunts
 
@@ -32,6 +30,9 @@ While I'm a fan of the typical Sudoku puzzle or word jumble, I'm particularly
 interested in puzzlehunts: large-scale events which involve teams of players
 solving puzzles, which can end up sending them across an entire campus or
 town to find the solution or next puzzle. 
+
+![Puzzlehunt](/assets/images/puzzlehunt.jpg)
+{: .small}
 
 I played and won my first
 [Auburn Puzzle Party](http://auburnpuzzleparty.wikia.com) in 2009, and
@@ -53,6 +54,7 @@ importantly, we wanted to present mathematics as critical thinking and
 problem solving in a fun enviornment.
 
 ![AMP'd Logo](/assets/images/ampd.jpg)
+{: .small}
 
 We embraced the pedagoical philosophy known as **Inquiry Based Learning**.
 Rather than teaching students a formal mathematical theory, we structured our

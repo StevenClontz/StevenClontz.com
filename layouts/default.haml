@@ -6,14 +6,20 @@
     = render "_navbar"
 
     #main.container
+    
       - if @item[:kind] == "article"
         %h1
           Blog
-          %small
-            %a{href:"/blog/"} [Back to index]
-        %h2= @item[:title]
-      - else
-        %h1= @item[:title]
+          %a.back{href:"/blog/"} [^ Back to index]
+        #title
+          %h2= @item[:title]
+        
+      - else # not article
+        %h1#title
+          = @item[:title]
+          - if @item[:kind] == 'page' and @item.parent.identifier != '/'
+            = link_to "[^ Back to #{@item.parent[:title]}]", @item.parent, class: "back"
+            
       - if @item[:kind] == "article"
         %h4
           %small
@@ -28,8 +34,8 @@
             Last updated on #{item[:mtime].strftime('%Y-%m-%d')}.
 
       - if @item[:blog_index]
-        %section
-          - sorted_articles.each do |article|
+        - sorted_articles.each do |article|
+          %section
             = render "_blog_preview", article: article
 
     = render "_foot"

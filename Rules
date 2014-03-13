@@ -20,40 +20,40 @@ preprocess do
   items.each do |item|
     item[:description] ||= @config[:site_description]
     item[:title] ||= "Blank Title"
+    item[:kind] ||= "page"
   end
   
-  unless items.find { |i| i.identifier == '/CNAME/' }
+  unless items.find { |i| i.identifier == '/_CNAME/' }
     items << Nanoc::Item.new( 'stevenclontz.com',
                               {}, #no attributes
-                              '/CNAME/' )
+                              '/_CNAME/' )
   end
 end
 
 
 
 # Static Files
-compile '/assets/*/' do
+compile '/_assets/*/' do
 end
 
-route '/assets/*/' do
-  # No routing rewrite
-  item.identifier.chop + '.' + item[:extension]
+route '/_assets/*/' do
+  '/' + item.identifier[2..-2] + '.' + item[:extension]
 end
 
 
 # Redirects
-compile '/redirects/*/' do
+compile '/_redirects/*/' do
   layout 'redirect'
 end
 
-route '/redirects/*/' do
-  item.identifier[10..-1] + 'index.html'
+route '/_redirects/*/' do
+  item.identifier[11..-1] + 'index.html'
 end
 
 # GitHub CNAME
-compile '/CNAME/' do
+compile '/_CNAME/' do
 end #no compilation
-route '/CNAME/' do
+route '/_CNAME/' do
   '/CNAME'
 end
 

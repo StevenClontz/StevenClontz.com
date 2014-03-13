@@ -7,6 +7,9 @@ limited information strategies.
 
 ![Cantor Tree Space](/assets/images/math.png)
 
+*The image above is an illustration of a topological space I've studied
+based upon the [Cantor Tree](http://en.wikipedia.org/wiki/Cantor_tree).*
+
 ## What's a Topological Game?
 
 As a [game and puzzle enthusisiast](/puzzles/), it's probably no surprise
