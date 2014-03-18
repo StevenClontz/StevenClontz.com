@@ -28,10 +28,11 @@
       #content
         = yield
 
-      %p
-        %small
-          %em 
-            Last updated on #{item[:mtime].strftime('%Y-%m-%d')}.
+      - unless @item[:blog_index]
+        %p
+          %small
+            %em 
+              Last updated on #{item[:mtime].strftime('%Y-%m-%d')}.
 
       - if @item[:blog_index]
         - sorted_articles.each do |article|
