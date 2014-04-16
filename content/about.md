@@ -23,7 +23,7 @@ in 2009 at Auburn. We married in June 2011, and look forward to many happy
 years together. Jessica is an elementary school teacher in the Auburn City 
 school system.
 
-###Career
+###CV and Resume
 
-Man, I could tell you, but I made this sweet
-[resume/CV](http://resume.stevenclontz.com)!
+I've serialized my education and work experience into a YAML file which is
+a part of this site and generates [my CV/resume page](/resume/).
