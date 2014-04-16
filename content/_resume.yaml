@@ -8,21 +8,22 @@ bio:
   zip: 36830
   email: steven.clontz@gmail.com
   website: http://stevenclontz.com
-  about: >+
-    Doctoral candidate in Mathematics at Auburn University, studying limited 
-    information strategies in topological games. Has a strong emphasis on 
-    pedagogy and outreach in addition to research.
-    
-    Professional web developer, using languages including Python and Ruby, and
-    frameworks including Django, Rails, and nanoc.
-    
-    Accomplished puzzle and game designer, organizing several puzzlehunts 
-    in the Auburn, AL area as well as founding the Auburn Mathematical Puzzle
-    Challenge outreach event for Auburn University.
-    
-    Experienced leader, including roles as AU Graduate Student Council 
-    President and course director of a BSA National Youth Leadership Training 
-    camp at age 19.
+  summary:
+    - >
+      Doctoral candidate in Mathematics at Auburn University, studying limited 
+      information strategies in topological games. Has a strong emphasis on 
+      pedagogy and outreach in addition to research.
+    - >
+      Professional programmer and web developer, using languages including 
+      Ruby and Python, and frameworks including Rails and Django.
+    - >
+      Accomplished puzzle and game designer, organizing several puzzlehunts 
+      in the Auburn, AL area as well as founding the Auburn Mathematical Puzzle
+      Challenge outreach event for Auburn University.
+    - >
+      Experienced leader, including roles as AU Graduate Student Council 
+      President and course director of a BSA National Youth Leadership Training 
+      camp.
 
 # educational data
 education:
@@ -32,19 +33,21 @@ education:
     degree: Bachelor of Science in Mathematics
     start_year: 2004
     end_year: 2008
-    about:
-      - Summa Cum Laude | University Honors Scholar | Dean's Medalist
-      - Phi Kappa Phi | Phi Beta Kappa
-      - |
-        Honors thesis on unfoldings of convex polyhedra | Undergraduate 
-        Research Fellow
+    items:
+      - Summa Cum Laude
+      - University Honors Scholar
+      - Dean's Medalist
+      - Phi Kappa Phi
+      - Phi Beta Kappa
+      - Honors thesis on unfoldings of convex polyhedra
+      - Undergraduate Research Fellow
   - institution: Auburn University
     location: "Auburn, AL"
     url: http://www.auburn.edu
     degree: Master of Science in Mathematics
     start_year: 2008
     end_year: 2010
-    about:
+    items:
       - |
         Thesis on stationary subsets of linearly ordered topological spaces 
         (LOTS)
@@ -53,7 +56,7 @@ education:
     url: http://www.auburn.edu
     degree: Doctoral Candidate in Mathematics
     start_year: 2010
-    about:
+    items:
       - |
         Dissertation being written on limited information strategies in 
         topological games
@@ -62,35 +65,216 @@ education:
         field of topology
 
 # sections describing experience
-topics:
-  - name: Research
-    summary: >+
-      Research interests include set theoretic topology and game theory, 
-      particularly using the existence of perfect or limited-information strategies 
-      in topological games to characterize topological properties of spaces. 
-      
-      Past research includes polyhedral unfoldings within solid geometry and the 
-      structure of linearly ordered topological spaces.
-    topics:
-      - name: Papers
+sections:
+
+  - title: Research
+    summary:
+      - >
+        Research interests include set theoretic topology and game theory, 
+        particularly using the existence of perfect or limited-information strategies 
+        in topological games to characterize topological properties of spaces. 
+      - >
+        Past research includes polyhedral unfoldings within solid geometry and the 
+        structure of linearly ordered topological spaces.
+      - >
+        *Research available online:* <http://github.com/StevenClontz/Research>
+    sections:
+      - title: Papers
         items:
-          - >+
+          - >
             *The Edge Unfolding of Generalized Pyramids* 
             (Undergraduate honors thesis, April 2008)
-            
             Advisor: Andras Bezdek
           - >+
             *Applications of Stationary Sets in Set Theoretic Topology* 
             (Masters thesis, October 2010)
-            
             Advisor: Gary Gruenhage
           - >+
             *Proximal Compact Spaces are Corson Compact* 
             (Journal article, submitted) 
-            
             Co-author: Gary Gruenhage
           - >+
             *Limited Information Strategies for Topological Games* 
             (PhD dissertation, in progress)
-            
             Advisor: Gary Gruenhage
+      - title: Presentations
+        items:
+          - >+
+            *Limited Information Strategies for Topological Games* 
+            (February 2013)
+            
+            AU Research Week 2013
+          - >+
+            *Mathematics is All Fun and Games* 
+            (October 2013)
+            AU COSAM Graduate Student Colloquium; AU DMS Graduate Student
+            Colloquium
+          - >+
+            Frequent speaker in AU Set-Theoretic Topology Seminar
+      - title: Awards
+        items:
+          - |
+            2013 Fitzpatrick Fellow for Auburn graduate students 
+            excelling in the field of topology
+
+  - title: Instruction
+    sections:
+      - title: Courses Taught
+        items:
+          - >+
+            Elementary Algebra - MTH 098 
+            (Southern Union - Hybrid lab/lecture utilizing ALEKS)
+          - (Honors) Calculus I - MATH 1610/7 (Auburn University)
+          - Calculus II - MATH 1620 (Auburn University)
+          - (Honors) Calculus III - MATH2630/7 (Auburn University)
+          - Intermediate Euclidean Geometry - MATH 5380 (Auburn University)
+      - title: Student Evaluation Excerpts
+        summary: 
+          - <http://stevenclontz.com/teaching>
+      - title: Lecture Notes
+        summary: 
+          - Notes for multiple courses released open-source online
+        items:
+          - >+
+            *University Calculus* by Hass, et al 
+            <https://github.com/StevenClontz/HassNotes-10to14>
+          - >+
+            *Calculus: Early Transcendentals* by Stewart 
+            <https://github.com/StevenClontz/Stewart-12to16>
+      - title: Private tutoring
+        summary: 
+          - >+
+            For both high school and college students; subjects ranging from 
+            ACT/AP preparation, finite mathematics, and Calculus courses.
+
+  - title: Outreach
+    sections:
+      - title: A.M.P.'d (Auburn Mathematical Puzzle) Challenge
+        items:
+          - >+
+            Co-created annual 
+            [puzzlehunt](http://en.wikipedia.org/wiki/Puzzlehunt)-inspired 
+            mathematics competition for 7th/8th grade students, serving as 
+            Event Director since its inception.
+          - >+ 
+            Served as writer, director, actor, videographer, and editor for 
+            videos featuring the "Auburn Math Police" Commissioner and various 
+            villains framing the scenario for the competition, as well as 
+            designing LaTeX/PDF documentation to match the theme
+          - >+
+            Wrote several mathematical puzzles (including subjects like graph 
+            theory, number theory, game theory, geometry, etc.) to be solved by 
+            teams of 6-8 students, and presented to mathematics graduate student 
+            judges.
+          - >+
+            Coordinated a staff of 35 graduate and undergraduate student 
+            volunteers along with AU COSAM Outreach leadership.
+      - title: AU Explore - Math EXPO
+        items:
+          - >+
+            Annual workshop for 5th grade students to play while using and 
+            learning mathematics
+          - >+
+            Event coordinator for 2013-2014, volunteer from 2009-2012
+      - title: Other Outreach Activities
+        items:
+          - War Eagle BEST Robotics Competition (judge)
+          - Science Olympiad for Elementary School (event designer)
+          - Science Olympiad for Middle School (event coordinator)
+
+  - title: Software Engineering
+    items:
+      - "GitHub: [@StevenClontz](http://github.com/StevenClontz)"
+      - "Portfolio: <http://stevenclontz.com/code/web/>"
+    sections:
+      - title: Content Management Systems
+        items:
+          - Wordpress-based CMS for the Auburn University Bands
+          - WolfCMS-based CMS for the AU Graduate Student Council
+          - Wordpress-based CMS for the AU Office of Univeristy Writing
+      - title: Static Sites and Generators
+        items:
+          - Created Octopress-powered blog formerly hosted on StevenClontz.com
+          - Created nanoc-powered site hosted on StevenClontz.com
+          - Created nanoc-powered Auburn University template site generator
+      - title: Web Applications
+        items:
+          - >+
+            Co-developed 
+            [Puzzle Console](https://github.com/jamesdabbs/puzzle-console) 
+            web app for the online administration of puzzlehunt competitions
+          - >+
+            Created <gradecalc.stevenclontz.com> JS app for quick and simple
+            computation of students' current and desired grades.
+          - >+
+            Co-founded Teloga, LLC and co-developed 
+            [Teloga.com](http://www.teloga.com) Musician Networks website for 
+            musician networking and event/ensemble registration for high school 
+            and college music organizations
+      - title: Specialist IV - Information Technology
+        summary: 
+          - Employed by AU Office of University Writing
+        items:
+          - Managed and analyzed assessment data for the ePortfolio Project
+          - Developed custom Wordpress CMS for office website
+          - Implemented CRM and project management web applications
+
+  - title: Puzzle and Game Design
+    sections:
+      - title: Auburn Puzzler
+        summary: 
+          - >+
+            Co-organized an informal Alternate Reality Game (ARG) featuring an
+            enigmatic "Puzzler" who left several mini puzzlehunts on Auburn 
+            University's campus running from April to August 2009.
+      - title: Auburn Puzzle Party 
+        items:
+          - <http://auburnpuzzleparty.wikia.com>
+          - >+
+            Led a staff of around a dozen volunteers to design and run the Auburn 
+            Puzzle Party puzzlehunt events APP4 (2010) and APP5 (2012)
+          - Created several videos and web applications as a part of both events
+          - >+
+            Played on the winnning APP3, EPP13, APP6, and EPP14 teams.
+      - title: A.M.P.'d Challenge
+        summary: 
+          - >+
+            Created mathematical puzzle competition at Auburn University.
+            (See Outreach.)
+
+  - title: Leadership
+    sections:
+      - title: Boy Scouts of America
+        items:
+          - Eagle Scout
+          - >+
+            National Youth Leadership Training staffer 2003-2011, 
+            Course Leader in 2006
+      - title: Auburn University
+        items:
+          - >+
+            Auburn University Bands Freshman Advisor ("R.A.T. Leader") in 2007
+          - >+
+            Founded Math Club in 2008 as Vice President
+          - >+
+            Appointed Graduate Student Council Webmaster in 2010
+          - >+
+            Elected Graduate Student Council President in 2011
+          - >+
+            Founded Dept. of Math and Stats Graduate Student Leaders organization
+
+  - title: Competencies and Interests
+    items:
+      - >+
+        **Mathematics** -
+        Set theoretic topology, game theory, graph theory, geometry, calculus, 
+        proof techniques, pedagogy
+      - >+
+        **Programming** -
+        HTML5, CSS (LESS, SASS), Javascript (jQuery, Coffeescript), 
+        PHP (Wordpress, Wolf CMS), Python (Django), 
+        Ruby (Rails, nanoc), SQL, LaTeX, Git
+
+references:
+  summary: 
+    - Available upon request.

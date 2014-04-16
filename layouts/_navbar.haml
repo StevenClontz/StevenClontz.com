@@ -1,26 +1,28 @@
 .navbar.navbar-inverse.navbar-fixed-top
   .container
-    .navbar-header
-      %a.navbar-brand{href:"/"} StevenClontz.com
-      %button.navbar-toggle{type:"button", "data-toggle" => "collapse", "data-target" => ".navbar-collapse"}
-        %span.sr-only Toggle navigation
-        %span.icon-bar
-        %span.icon-bar
-        %span.icon-bar
-    .navbar-collapse.collapse.navbar-inverse-collapse
-      %ul.nav.navbar-nav
-        %li
-          %a{href:"/blog/"} Blog
-        %li
-          %a{href:"/math/"} Math
-        %li
-          %a{href:"/teaching/"} Teaching
-        %li
-          %a{href:"/code/"} Code
-        %li
-          %a{href:"/puzzles/"} Puzzles
-        %li
-          %a{href:"/about/"} About Me
-      %ul.nav.navbar-nav.navbar-right.hidden-xs
-        %li
-          %a{href:"/contact/"} Contact
+    .row
+      .col-lg-offset-1.col-lg-10
+        .navbar-header
+          %a.navbar-brand{href:"/"} StevenClontz.com
+          %button.navbar-toggle{type:"button", "data-toggle" => "collapse", "data-target" => ".navbar-collapse"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+        .navbar-collapse.collapse.navbar-inverse-collapse
+          %ul.nav.navbar-nav
+            %li
+              %a{href:"/blog/"} Blog
+            %li
+              %a{href:"/math/"} Math
+            %li
+              %a{href:"/teaching/"} Teaching
+            %li
+              %a{href:"/code/"} Code
+            %li
+              %a{href:"/puzzles/"} Puzzles
+            %li
+              %a{href:"/about/"} About Me
+          %ul.nav.navbar-nav.navbar-right.hidden-xs
+            %li
+              %a{href:"/contact/"} Contact

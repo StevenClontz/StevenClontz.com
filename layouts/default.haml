@@ -7,36 +7,41 @@
 
     #main.container
     
-      - if @item[:kind] == "article"
-        %h1
-          Blog
-          %a.back{href:"/blog/"} [^ Back to index]
-        #title
-          %h2= @item[:title]
-        
-      - else # not article
-        %h1#title
-          = @item[:title]
-          - if @item[:kind] == 'page' and @item.parent.identifier != '/'
-            = link_to "[^ Back to #{@item.parent[:title]}]", @item.parent, class: "back"
+      .row
+        .col-lg-offset-1.col-lg-10
+    
+          - if @item[:kind] == "article"
+            %h1
+              Blog
+              %a.back{href:"/blog/"} [^ Back to index]
+            #title
+              %h2= @item[:title]
+              
+          - if @item[:kind] == "resume"
             
-      - if @item[:kind] == "article"
-        %h4
-          %small
-            Posted on
-            = Date.parse(@item[:created_at]).strftime('%Y-%m-%d')
-      #content
-        = yield
+          - else # not article
+            %h1#title
+              = @item[:title]
+              - if @item[:kind] == 'page' and @item.parent.identifier != '/'
+                = link_to "[^ Back to #{@item.parent[:title]}]", @item.parent, class: "back"
+                
+          - if @item[:kind] == "article"
+            %h4
+              %small
+                Posted on
+                = Date.parse(@item[:created_at]).strftime('%Y-%m-%d')
+          #content
+            = yield
 
-      - unless @item[:blog_index]
-        %p
-          %small
-            %em 
-              Last updated on #{item[:mtime].strftime('%Y-%m-%d')}.
+          - unless @item[:blog_index]
+            %p
+              %small
+                %em 
+                  Last updated on #{item[:mtime].strftime('%Y-%m-%d')}.
 
-      - if @item[:blog_index]
-        - sorted_articles.each do |article|
-          %section
-            = render "_blog_preview", article: article
+          - if @item[:blog_index]
+            - sorted_articles.each do |article|
+              %section
+                = render "_blog_preview", article: article
 
     = render "_foot"

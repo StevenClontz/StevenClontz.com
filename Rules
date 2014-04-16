@@ -23,6 +23,9 @@ preprocess do
     item[:kind] ||= "page"
   end
   
+  items.find{|i| i.identifier == '/_resume/'}[:title] = 'CV and Resume'
+  items.find{|i| i.identifier == '/_resume/'}[:kind] = 'resume'
+  
   unless items.find { |i| i.identifier == '/_CNAME/' }
     items << Nanoc::Item.new( 'stevenclontz.com',
                               {}, #no attributes
@@ -55,6 +58,16 @@ compile '/_CNAME/' do
 end #no compilation
 route '/_CNAME/' do
   '/CNAME'
+end
+
+# Resume
+compile '/_resume/' do
+  layout 'resume'
+  layout 'default'
+  filter :relativize_paths, type: :html
+end
+route '/_resume/' do
+  '/resume/index.html'
 end
 
 

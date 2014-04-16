@@ -1,0 +1,68 @@
+/ alias attributes
+- bio=@item[:bio]
+- edu=@item[:education]
+- ref=@item[:references]
+
+%h1=bio[:name]
+%p
+  =bio[:address]
+  ==&middot;
+  ="#{bio[:city]}, #{bio[:state]} #{bio[:zip]}"
+  ==&middot;
+  =bio[:email]
+  ==&middot;
+  %a{href:bio[:website]}=bio[:website]
+
+%section#bio
+  
+  %h2 Biography
+  -bio[:summary].each do |p|
+    %p= Kramdown::Document.new(p).to_html
+  
+
+%section#education
+  %h2 Education
+
+  - edu.each do |e|
+    %h3
+      %a{href:e[:url]}=e[:institution]
+      %small=e[:location]
+    %p
+      ="#{e[:degree]} (#{e[:start_year]}-#{e[:end_year]})"
+    - if e[:items]
+      %ul
+        - e[:items].each do |l|
+          %li=Kramdown::Document.new(l).to_html
+
+- @item[:sections].each do |section|
+  %section
+    %h2=section[:title]
+    - if section[:summary]
+      - section[:summary].each do |p|
+        %p=Kramdown::Document.new(p).to_html
+    - if section[:items]
+      %ul
+        - section[:items].each do |l|
+          %li=Kramdown::Document.new(l).to_html
+          
+    - if section[:sections]
+      - section[:sections].each do |section|
+        %h3=section[:title]
+        - if section[:summary]
+          - section[:summary].each do |p|
+            %p=Kramdown::Document.new(p).to_html
+        - if section[:items]
+          %ul
+            - section[:items].each do |l|
+              %li=Kramdown::Document.new(l).to_html
+
+%section#references
+  %h2 References
+  - if ref[:summary]
+    - ref[:summary].each do |p|
+      %p=Kramdown::Document.new(p).to_html
+  - if ref[:items]
+    %ul
+      - ref[:items].each do |l|
+        %li=Kramdown::Document.new(l).to_html
+  
