@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>
+    Blog
+    |
+    StevenClontz.com
+  </title>
+<link href="../assets/bootswatch-flatly.css" rel="stylesheet">
+<link href="../assets/style.css" rel="stylesheet">
+<link href="http://www.stevenclontz.com/" rel="canonical">
+<link href="../assets/favicon.ico" rel="icon">
+<meta description="Mathematician, instructor, programmer, and puzzler">
+<meta content="nanoc 3.6.7" name="generator">
+<meta content="Steven Clontz" name="author">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta content="http://i.imgur.com/CKetep2.jpg" property="og:image">
+<meta content="Mathematician, instructor, programmer, and puzzler" property="og:description">
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script><script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-offset-1 col-lg-10">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../">StevenClontz.com</a>
+          <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse navbar-inverse-collapse">
+          <ul class="nav navbar-nav">
+<li>
+              <a href="./">Blog</a>
+            </li>
+            <li>
+              <a href="../math/">Math</a>
+            </li>
+            <li>
+              <a href="../teaching/">Teaching</a>
+            </li>
+            <li>
+              <a href="../code/">Code</a>
+            </li>
+            <li>
+              <a href="../puzzles/">Puzzles</a>
+            </li>
+            <li>
+              <a href="../about/">About</a>
+            </li>
+          </ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+              <a href="../resume/">CV/Resume</a>
+            </li>
+          </ul>
+<!-- %li --><!-- %a{href:"/contact/"} Contact -->
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="container" id="main">
+      <div class="row">
+        <div class="col-lg-offset-1 col-lg-10">
+          <h1 id="title">
+            Blog
+          </h1>
+          <div id="content">
+            <p>Updated sporadically. :-) I typically post for one of a couple of reasons:</p>
+
+<ul>
+<li>I have an update to share.</li>
+  <li>I googled something math or code-related and it wasn’t immediately
+obvious. <em>Never again.</em>
+</li>
+</ul>
+</div>
+          <section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2014/05/08/git-subtree-push-for-deployment/">`git-subtree` for GitHub Pages deployment</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2014-05-08
+      </small>
+    </h4>
+    <p>Picking up Yeoman today, and in the process learned a slick trick
+for GitHub Pages. A common pattern in both Nanoc and a Yeoman AngularJS
+generated project is to have a built version of the site/app within
+the project folder, but untracked. Previously, I set up a separate
+Git repository within that subfolder in order to push to
+<code>gh-pages</code> for publishing. But there’s a better way.</p>
+    <a class="btn btn-primary" href="2014/05/08/git-subtree-push-for-deployment/">Read more...</a>
+  </div>
+</div>
+          </section><section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2014/04/13/erics-puzzle-party-14/">Eric's Puzzle Party 14</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2014-04-13
+      </small>
+    </h4>
+    <p>My team won <a href="http://www.ericharshbarger.org/epp/2014/">EPP14</a>!</p>
+
+<p>I added a <a href="https://github.com/StevenClontz/epp14">GitHub repository</a>
+which has the code I wrote to tackle three of the puzzles, but the most fun
+I had was surprising not the mathematics and coding.</p>
+    <a class="btn btn-primary" href="2014/04/13/erics-puzzle-party-14/">Read more...</a>
+  </div>
+</div>
+          </section><section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2014/03/11/added-create-blog-command/">Added create_blog command</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2014-03-11
+      </small>
+    </h4>
+    <p>While there were a few options out there for creating a nanoc item 
+representing an “article” for use with <code>Nanoc::Helpers::Blogging</code>, I
+rolled one myself since I had a pretty barebones need:</p>
+    <a class="btn btn-primary" href="2014/03/11/added-create-blog-command/">Read more...</a>
+  </div>
+</div>
+          </section><section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2014/02/21/changing-file-extensions-in-the-terminal/">Changing file extensions in the terminal</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2014-02-21
+      </small>
+    </h4>
+    <p>So I can’t exactly publish this while I’m in the middle of moving my site
+to <a href="http://nanoc.ws">nanoc</a>, but here’s another bash one-liner for 
+mass-changing an old extension <code>*.old</code> to a new one <code>*.new</code> within a folder.</p>
+
+<pre><code>for file in *.old; do mv "$file" "${file%.*}.new"; done
+</code></pre>
+
+<p>Pretty useful: I wanted to change from Octopress’s <code>*.markdown</code> extension to
+the more typical <code>*.md</code> for my blog posts, and that saved me a few clicks!</p>
+  </div>
+</div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2014/02/09/compact-spaces-with-g-delta-diagonals-are-metrizable/">Compact spaces with G_\delta diagonals are metrizable</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2014-02-09
+                  </small>
+                </h4>
+                <p>Too many web development posts! Time for some topology!</p>
+                
+                <p>As an exercise I’ve worked through the classical result that if a space <script type="math/tex">X</script>
+                is compact Hausdorff and has a <script type="math/tex">G_\delta</script>-diagonal <script type="math/tex">\Delta</script>, then <script type="math/tex">X</script> is 
+                metrizable. 
+                It relies on Urysohn’s theorem that regular second-countable spaces are 
+                metrizable, and since compact Hausdorff spaces are normal*, I’ll just show 
+                that the space is second countable.</p>
+                
+                <p>When I went to compare, most of proofs I found online and in texts like 
+                Engleking were a lot less direct (involving characterizations
+                of <script type="math/tex">G_\delta</script> diagonals using covers), so I hope someone gets 
+                some use out of this fairly straight-forward attack (due to a hint from 
+                my advisor Gary Gruenhage).</p>
+                <a class="btn btn-primary" href="2014/02/09/compact-spaces-with-g-delta-diagonals-are-metrizable/">Read more...</a>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2014/02/07/lowercase-urls-in-mvc-4/">Lowercase URLs in MVC 4</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2014-02-07
+      </small>
+    </h4>
+    <p>More adventures in .NET. Here’s a couple of code snippets to enforce 
+lower-case URLs in a MVC 4 application (which oddly defaults to 
+<a href="http://en.wikipedia.org/wiki/CamelCase">UpperCamelCase</a>).</p>
+
+<p><a href="https://gist.github.com/StevenClontz/8870552">Check out the Gist.</a></p>
+  </div>
+</div>
+          </section><section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2014/02/05/add-leading-zeros-to-renumber-files/">Add leading zeros to renumber files</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2014-02-05
+      </small>
+    </h4>
+    <p>A quick one… pretty simple but I wanted to make note of it.</p>
+
+<p>I unwisely numbered the files in a folder like so:</p>
+
+<p><code>
+1.txt
+2.txt
+...
+9.txt
+10.txt
+11.txt
+12.txt
+</code></p>
+
+<p>So their alphanumeric order is not the same as the numeric order. Is there 
+a quick way in the shell to renumber these with leading zeros? 
+<a href="http://stackoverflow.com/questions/3672301/linux-shell-script-to-add-leading-zeros-to-file-names">Of course.</a></p>
+
+<pre><code>for a in [0-9]*.txt; do                     # match numbered files
+    mv $a `printf %02d.%s ${a%.*} ${a##*.}` # replace number with 2-digit ver.
+done
+</code></pre>
+  </div>
+</div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2014/02/04/visual-studio-2012-and-git-slash-bitbucket/">Visual Studio 2012 and Git / Bitbucket</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2014-02-04
+                  </small>
+                </h4>
+                <p>Another write-up for something I’m doing for work. Actually, this one
+                (incidentally) makes my last post obsolete, since it better solves the 
+                problem I had in the process of solving the main problem of this post.</p>
+                
+                <p>This post will outline how I migrated an existing .NET (C#) website project
+                in Visual Studio 2012 to a version-controlled project powered by Git and
+                <a href="http://bitbucket.org">Bitbucket.org</a>. As usual, this is mostly for my own
+                documentation, but perhaps it will help someone searching for a similar 
+                problem/solution online.</p>
+                <a class="btn btn-primary" href="2014/02/04/visual-studio-2012-and-git-slash-bitbucket/">Read more...</a>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2014/01/23/visual-studio-2012-setting-iis-express-to-host-site-at-subdirectory/">Visual Studio 2012 - Setting IIS Express to host site at subdirectory</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2014-01-23
+      </small>
+    </h4>
+    <p>UPDATE: This is a terrible way to get this working, as I thankfully discovered.
+<a href="2014/02/04/visual-studio-2012-and-git-slash-bitbucket/">See my 2014-02-04 post for details.</a></p>
+
+<p>It took me forever and a day to get this functional, so I wanted to share the 
+problem and solution in case it helps someone else out there trying to 
+Google their way to solve a similar puzzle.</p>
+
+<h3 id="problem">Problem</h3>
+
+<p>I inherited a ASP.NET website which was hosted at 
+<code>https://www.domain.com/subdirectory/</code>. The site was coded with absolute 
+links throughout of the form <code>/subdirectory/path/to/resource</code>. However, when
+Visual Studio 2012 spins up IIS Express to host the site locally, the site
+is hosted at <code>http://localhost:port/</code>. You can see the issue: all the 
+references to <code>/subdirectory/etc</code> are now broken in the application, which 
+makes previewing the site a pain.</p>
+    <a class="btn btn-primary" href="2014/01/23/visual-studio-2012-setting-iis-express-to-host-site-at-subdirectory/">Read more...</a>
+  </div>
+</div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2013/12/30/nanoc-au/">nanoc-au</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2013-12-30
+                  </small>
+                </h4>
+                <p>Maybe I should get gross multiweek sinus infections more often. In addition to co-authoring my first ever topology paper to be submitted to a journal (I hope to share more about that soon!), I’ve spent the past couple of days hacking out an Auburn-themed version of the Ruby static site generator <a href="http://nanoc.ws">nanoc</a>.</p>
+                
+                <p><a href="http://i.imgur.com/Pl532Nh.png">{% img http://i.imgur.com/Pl532Nh.png %}</a></p>
+                
+                <p>If you are an Auburn student/employee/professor comfortable with the terminal (no Ruby experience required), and would like to roll out an Auburn-themed website, this is a very slick way to do it. Check out the example site here: <a href="http://auburnwrites.github.io/nanoc-au/">http://auburnwrites.github.io/nanoc-au/</a>.</p>
+                
+                <p>UPDATE 2014-01-03: I’ve added a proof-of-concept here: <a href="http://www.auburn.edu/~clontsc">http://www.auburn.edu/~clontsc</a></p>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2013/12/28/complex-exponents/">Complex exponents</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2013-12-28
+                  </small>
+                </h4>
+                <p>As usual, since I spent some time writing this up on <a href="http://www.reddit.com/r/learnmath/">/r/learnmath</a>, I’d like to share it with you guys. The OP asks:</p>
+                
+                <blockquote>
+                  <p>what does it mean to raise a number to the power of i?</p>
+                </blockquote>
+                
+                <p>I explain in <a href="http://www.reddit.com/r/learnmath/comments/1tuq9y/what_does_it_mean_to_raise_a_number_to_the_power/cebqmng">this comment</a>, but here it is too.</p>
+                <a class="btn btn-primary" href="2013/12/28/complex-exponents/">Read more...</a>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2013/12/26/stats-which-will-surprise-no-one/">Stats which will surprise no one</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2013-12-26
+      </small>
+    </h4>
+    <p>Since I recently relaunched my <a href="http://gradecalc.stevenclontz.com">grade calculator website</a> I wanted to see how the month of finals affected my traffic.</p>
+
+<p>{% img http://i.imgur.com/Kt5JDgs.png %}</p>
+
+<p>Basically, over a 1000 daily visits around the week before Christmas, compared to fifteen total concerned students on Christmas day.</p>
+
+<p>While these stats aren’t surprising, I suppose it’s a nice confirmation that my analytics software passes the eyeball test for realistic statistics. When I moved off of auburn.edu I took a major hit in my Google ranking however - it’d be interesting to have statistics from a year ago (I unfortunately did not have my tracking code up and running).</p>
+  </div>
+</div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2013/12/17/fall-2013-evaluations/">Fall 2013 Teaching Evaluations</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2013-12-17
+                  </small>
+                </h4>
+                <p>My last class teaching at Auburn came sooner than expected. Starting in the spring, I’ll be working as the software engineer / web developer / IT specialist for Auburn’s <a href="https://fp.auburn.edu/writing/">Office of University Writing</a>, specifically the <a href="https://fp.auburn.edu/writing/eportfolio-project/">ePortfolio Project</a>. I’m sure I’ll post more about that down the road - I start on January 7th.</p>
+                
+                <p>I had a great group of students in this final semester. And it seems they thought I was okay too.</p>
+                
+                <blockquote>
+                  <p>Best math teacher I’ve had at Auburn. Seems like he’s having fun teaching and really enjoys his job here at Auburn. He isn’t as mundane as the rest of the math department’s professors and teachers. Overall, a funny nice guy with a great attitude and a love for what he’s doing.</p>
+                </blockquote>
+                
+                <p>I added more on my <a href="../teaching/">teaching</a> page.</p>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2013/11/04/gradecalc/">GradeCalc</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2013-11-04
+                  </small>
+                </h4>
+                <p>It’s been way too long since I updated, but I wanted to share the revival of my most popular app: <a href="http://gradecalc.stevenclontz.com">GradeCalc</a>. Development notes follow.</p>
+                
+                <p>{% img http://i.imgur.com/DEiiWaH.png %}</p>
+                <a class="btn btn-primary" href="2013/11/04/gradecalc/">Read more...</a>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2013/05/07/teacher-evaluations-2013/">Teacher Evaluations Spring 2013</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2013-05-07
+                  </small>
+                </h4>
+                <blockquote>
+                  <p>Steven Clontz is the best professor I’ve had at Auburn thus far.</p>
+                </blockquote>
+                
+                <p>Gonna brag a little. Here’s some excerpts from my student evaulation comments.</p>
+                
+                <p><strong>EDIT 2013-08-06</strong> I’ve moved this sort of thing to its own page: <a href="../teaching">http://www.stevenclontz.com/teaching</a></p>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2013/03/17/order-of-operations/">6÷2(1+2)=?</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2013-03-17
+                  </small>
+                </h4>
+                <p>This is a problem that’s been thrown around the Facebook recently it seems. Man, it seems so simple:</p>
+                
+                <script type="math/tex; mode=display">6÷2(1+2)=?</script><p>Simple until you ask a group of people what the answer is, and find out half of us think it’s nine, and the other half think it’s one.</p>
+                
+                <p>So what IS the answer?</p>
+                <a class="btn btn-primary" href="2013/03/17/order-of-operations/">Read more...</a>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2013/02/26/presentation-for-gsc-scholars-forum-2013/">Presentation for GSC Scholars' Forum 2013</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2013-02-26
+      </small>
+    </h4>
+    <p>I will be presenting my research tomorrow morning (2013-02-27) for the Graduate Student Council Scholars’ Forum, a preliminary event for AU Research Week. It’s intended to showcase graduate student research for a general audience.</p>
+
+<p>Hopefully I’ll do an okay job! If you’re interested in my research, I’ve made the presentation available on <a href="https://github.com/StevenClontz/2013-au-research-week-presentation/">GitHub</a> (and <a href="../aurw-2013/">added a page to my site</a>).</p>
+
+<p>-SXC</p>
+    <a class="btn btn-primary" href="2013/02/26/presentation-for-gsc-scholars-forum-2013/">Read more...</a>
+  </div>
+</div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2013/02/05/e-dot-t-s-march/">E.T.'s March</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2013-02-05
+                  </small>
+                </h4>
+                <p>Back when I was in undergrad, some friends and I decided to spend our Spring Break taking a road trip to Alamogordo, New Mexico, to make a documentary about the Atari E.T. game failure. Long story short, the game was a flop, and according to the folklore millions of copies were buried in a landfill in that city.</p>
+                
+                <p>Unfortunately, lack of funds kept us from our mission. Occassionally I’ll be contacted about our attempt, and while there really isn’t much to say, I always try to contribute. The latest publication es en español, so I’ll add my original quote in English after the break.</p>
+                
+                <p><a href="http://noticias.lainformacion.com/arte-cultura-y-espectaculos/videojuegos/la-tumba-de-atari-en-busca-del-tesoro-enterrado-3-3_fv0STkwEo6P8MdaFwripy5/">http://noticias.lainformacion.com/arte-cultura-y-espectaculos/videojuegos/la-tumba-de-atari-en-busca-del-tesoro-enterrado-3-3_fv0STkwEo6P8MdaFwripy5/</a></p>
+                <a class="btn btn-primary" href="2013/02/05/e-dot-t-s-march/">Read more...</a>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2013/01/29/randomly-selecting-an-element-from-a-list-with-uniform-distribution-without-using-the-length-of-the-list/">Randomly selecting a line of input with uniform distribution without knowing how many lines to expect</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2013-01-29
+                  </small>
+                </h4>
+                <p>Man that title is a mouthful. The concept is simple, but putting it to words takes a bit of work (I think - let me know if you can put it more succinctly!).</p>
+                
+                <p>The idea is lifted wholesale from this <a href="http://www.reddit.com/tb/17fnb2">/r/math post</a>, which is a cool concept (albiet poorly written). I’ve tried to make it a little more digestable in <a href="http://www.reddit.com/r/math/comments/17fnb2/an_algorithm_to_randomly_select_an_item_from_a/c85bifv">this comment</a> (careful, spoilers!), which I’ve copied below (without spoilers).</p>
+                <a class="btn btn-primary" href="2013/01/29/randomly-selecting-an-element-from-a-list-with-uniform-distribution-without-using-the-length-of-the-list/">Read more...</a>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2013/01/28/fixing-my-macbook-pro/">Fixing my Macbook Pro - replacing hard drive SATA cable</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2013-01-28
+                  </small>
+                </h4>
+                <p>So, about two weeks ago <a href="https://www.facebook.com/steven.clontz/posts/10101144733985781">I found myself without a working hard drive</a> on my Macbook Pro (13”, mid-2008). That’s what I thought anyway <a href="https://www.facebook.com/steven.clontz/posts/10101146355955341">until the hard drive turned out to work fine in an external enclosure</a>. </p>
+                
+                <p>As it turned out, the fix was simple - replace the SATA cable connecting the hard drive to the logic board. But figuring out that was the problem/solution was a little frustrating, so I wanted to outline what happened here so that someone else may trip across this one day and find it helpful.</p>
+                <a class="btn btn-primary" href="2013/01/28/fixing-my-macbook-pro/">Read more...</a>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2012/12/19/how-many-distinct-outcomes-in-bowling/">How many distinct outcomes in bowling?</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2012-12-19
+      </small>
+    </h4>
+    <p>Today I played my final game of bowling in the “Math Nerd League 2012”. And maybe my first - I don’t know if that moniker was in use before today, but it was used to designate the group of my colleagues in the <a href="http://math.auburn.edu/">Auburn University mathematics graduate program</a> who went this afternoon.</p>
+
+<p>I’m pretty bad at bowling (although since playing a fair bit this year I’ve improved my average to roughly 80 compared to a dismal 50). So to keep my mind on happier thoughts, I asked the question:</p>
+
+<blockquote>How many different outcomes are there for one game of bowling?</blockquote>
+    <a class="btn btn-primary" href="2012/12/19/how-many-distinct-outcomes-in-bowling/">Read more...</a>
+  </div>
+</div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2012/12/17/guessing-passwords/">Guessing passwords</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2012-12-17
+                  </small>
+                </h4>
+                <p>There’s not any deep cryptography going on here, but since I spent 15 minutes answering this person on <a href="http://www.reddit.com/r/askmath/comments/14zzhw/i_guessed_the_password_on_my_moms_computer_snot/">/r/askmath</a>, and nobody reads /r/askmath, I’d take the time to cross-post it here.</p>
+                
+                <p>The question:</p>
+                
+                <blockquote>I guessed the password on my Mom's computer. "Snot". This isn't relevant to anything I can think of in the last 10 years. What are the chances of my guess being correct?</blockquote>
+                <a class="btn btn-primary" href="2012/12/17/guessing-passwords/">Read more...</a>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2012/12/15/latex-is-turing-complete/">LaTeX is turing complete!</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2012-12-15
+                  </small>
+                </h4>
+                <p>So, I knew <a href="http://en.wikipedia.org/wiki/LaTeX">LaTeX</a> was the best mathematical markup out there, but I didn’t realize it was Turing complete. Here’s an article that shows how to compute the Fibonacci sequence:</p>
+                
+                <p><a href="http://blog.scribtex.com/latex-is-turing-complete-51805">http://blog.scribtex.com/latex-is-turing-complete-51805</a></p>
+                
+                <p>Makes me wonder where I can save myself some time by having LaTeX do certain computations for me in my paper rather than doing them myself? I suppose this would likely negatively affect compile time, however.</p>
+                
+                <p>-SXC</p>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2012/11/15/using-email-addresses-for-django-usernames/">Using email addresses for Django usernames</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2012-11-15
+                  </small>
+                </h4>
+                <p><a href="https://www.djangoproject.com/">Django</a> is a great Python framework for database-driven sites. It’s what we use for <a href="http://www.teloga.com">Teloga</a> in fact. But there’s one thing that bugs me: usernames are case-sensitive.</p>
+                
+                <p>With Teloga busy serving both the <a href="http://www.teloga.com/networks/aubands/">Auburn University Bands</a> and the <a href="http://www.teloga.com/networks/aba/">Alabama Bandmasters Association</a>, it didn’t take too long for us to realize that this is very unintuitive for users. We received weekly emails complaining that this person couldn’t log into their account, and invariably it’d be caused by the usage of Steven@Teloga.com instead of steven@teloga.com. That had to go.</p>
+                <a class="btn btn-primary" href="2012/11/15/using-email-addresses-for-django-usernames/">Read more...</a>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2012/11/05/9-hours-9-persons-9-doors/">9 Hours, 9 Persons, 9 Doors</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2012-11-05
+      </small>
+    </h4>
+    <p>Having spent a lot of my weekend playing it (after representing Teloga at the <a href="http://teloga.com/networks/aubands/alumni-band/fall-2012/">26th Annual Auburn Alumni Band Reunion</a>), I wanted to make a quick, mostly spoiler-free post about <a href="http://en.wikipedia.org/wiki/999:_Nine_Hours,_Nine_Persons,_Nine_Doors"><em>999: 9 Hours, 9 Persons, 9 Doors</em></a> (2010). It’s a visual novel / room escape / puzzle / adventure game for the Nintendo DS.</p>
+    <a class="btn btn-primary" href="2012/11/05/9-hours-9-persons-9-doors/">Read more...</a>
+  </div>
+</div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2012/10/28/resume-now-online/">Marked-down resume</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2012-10-28
+                  </small>
+                </h4>
+                <p>A project that had been almost as long overdue as reviving <a href="http://www.stevenclontz.com">http://www.stevenclontz.com</a> was updating my neglected resume.</p>
+                
+                <p>The tl;dr version: check it out at <a href="http://resume.stevenclontz.com">http://resume.stevenclontz.com</a>! But if you think that looks nice and would like to check out the web app that powers it, please read on. :-)</p>
+                <a class="btn btn-primary" href="2012/10/28/resume-now-online/">Read more...</a>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+              <div class="panel-body">
+                <h3>
+                  <a href="2012/10/28/auburn-puzzle-party-5/">Auburn Puzzle Party 5</a>
+                </h3>
+                <h4>
+                  <small>
+                    Posted on
+                    2012-10-28
+                  </small>
+                </h4>
+                <p>In case you hadn’t heard me talk about it yet, <a href="http://auburnpuzzleparty.wikia.com/wiki/APP5_Wrap-Up">here’s my wrap-up of Auburn Puzzle Party 5</a> on the Auburn Puzzle Party wiki.</p>
+                
+                <p>And if you haven’t checked out the <a href="http://www.youtube.com/playlist?list=PLooILs0YfKkEWPeFpZdDis2GuQ2aP-weO">APP5 videos, including the Puzzle Rock Anthem</a> yet, you’re missing out. See if you can solve the “hidden” puzzle in the videos too.</p>
+                
+                <p>-SXC</p>
+              </div>
+            </div>
+          </section><section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2012/10/25/new-blog-powered-by-octopress/">New blog powered by Octopress</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2012-10-25
+      </small>
+    </h4>
+    <p>Hey everyone! Thanks for checking out my new blog*. After deciding I didn’t need to waste so much cash on domain names I don’t use and web space I barely needed, I took down stevenclontz.com along with most of my other old PHP/Wordpress sites. I’ll get stevenclontz.com to point here sometime soon.</p>
+
+<p>Thanks to <a href="http://jdabbs.com">James Dabbs</a> for showing <a href="http://octopress.org/">Octopress</a> to me the other day - a blogging system with <a href="http://git-scm.com/">Git</a> revision control and hosting by <a href="http://heroku.com">Heroku</a> sounds alright to me.</p>
+
+<p>I’ll be working on my <a href="../about/">About</a> page and getting my <a href="http://resume.stevenclontz.com">Resume</a> up to date over the coming days.  Email me at <a href="mailto:steven.clontz@gmail.com">steven.clontz@gmail.com</a> if you need to get in touch with me! See ya.</p>
+
+<p>-SXC</p>
+
+<p><small>*Is this sentence obligatory for a first blog post? I almost always see it, and it sounded awkward not to include it. Thanks again I guess. :-)</small></p>
+  </div>
+</div>
+          </section><section><div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      <a href="2012/10/24/hello-world/">Hello world</a>
+    </h3>
+    <h4>
+      <small>
+        Posted on
+        2012-10-24
+      </small>
+    </h4>
+    <p>I am learning about Octopress here. Hiya everyone.</p>
+  </div>
+</div>
+          </section>
+</div>
+      </div>
+    </div>
+    <section class="container" id="footer"><p>
+        Content ©
+        2014
+        <a href="../contact/">Steven Clontz</a>
+        | Check out my
+        <a href="http://github.com/StevenClontz/StevenClontz.com">GitHub</a>
+      </p>
+      <p>
+        "Flatly" theme by
+        <a href="http://bootswatch.com">Bootswatch</a>
+        | Static site generated using
+        <a href="http://nanoc.ws">nanoc</a>
+      </p>
+    </section>
+</body>
+</html>
