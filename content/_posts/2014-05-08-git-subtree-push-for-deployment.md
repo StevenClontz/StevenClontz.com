@@ -41,7 +41,12 @@ Git pushes the subset of your repository corresponding to your build
 folder to the `gh-pages` branch, which is then available at
 `http://username.github.io/RepositoryName/`.
 
-Source: <https://github.com/yeoman/yeoman/wiki/Deployment>
+Since the subtree push command is rather verbose, I wrote a nanoc command
+to handle it for my blog:
+<https://github.com/StevenClontz/StevenClontz.com/blob/master/commands/deploy-ghpages.rb>
+
+Credit goes to the Yeoman wiki for showing me the light: 
+<https://github.com/yeoman/yeoman/wiki/Deployment>
 
 ### Addendum
 
