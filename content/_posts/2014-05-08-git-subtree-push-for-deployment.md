@@ -32,9 +32,23 @@ the existing repository. Here are the steps:
   make sure you've committed your changes to the repository (which should
   now include your build folder). Then it's as simple as:
 
+~~~
     # replace build_folder as appropriate
     git subtree push --prefix build_folder origin gh-pages
+~~~
 
 Git pushes the subset of your repository corresponding to your build
 folder to the `gh-pages` branch, which is then available at
 `http://username.github.io/RepositoryName/`.
+
+Source: https://github.com/yeoman/yeoman/wiki/Deployment
+
+### Addendum
+
+One caveat here. Since `git subtree push` doesn't have a `--force` option,
+you will have trouble on the first push if you have an existing `gh-pages`
+branch. You can actually chain git commands together to fix this, thankfully.
+
+    git push origin `git subtree split --prefix build_folder master`:gh-pages --force
+
+Source: http://stackoverflow.com/a/13403588/1607849
