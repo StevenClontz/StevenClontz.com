@@ -1,0 +1,97 @@
+.jumbotron {
+  background-color: #18bc9c;
+  border-color: #128f76;
+  color: #ffffff;
+}
+
+.jumbotron h4, .jumbotron h5 {
+  color: #2c3e50;
+}
+
+#main {
+  margin-top: 65px;
+}
+
+section {
+  margin-top: 65px;
+}
+
+h1 a.back {
+  font-size: 0.4em;
+}
+
+#footer {
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#content img {
+  display: block;
+  margin: auto;
+  border: 1px solid #ddd;
+  padding: 5px;
+  max-width: 50%;
+  max-height: 25%;
+}
+
+#content .large img {
+  max-width: 75%;
+  max-height: 50%;
+}
+
+@media(max-width:767px){
+  #content img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.panel-heading a {
+  color:inherit;
+}
+
+.jumbotron .quick-links {
+  /*text-align: center;*/
+  font-size: 0.9em;
+}
+
+.jumbotron .quick-links a {
+  color: inherit;
+}
+
+.jumbotron .quick-links span+span:before {
+  /*color: #2c3e50;*/
+  content:" | ";
+}
+
+/*.navbar-inverse .navbar-brand:hover {
+  color:#fff;
+  cursor: default;
+}*/
+
+.panel {
+  border-radius: 0;
+}
+
+.panel-heading {
+  border-radius: 0;
+}
+
+.CodeRay pre {
+  border-radius: 0;
+  background-color: #f8f8f8;
+}
+
+.CodeRay .line-numbers pre {
+  border-right: 0;
+}
+
+.CodeRay .code pre {
+  border-left: 0;
+}
+
+.youtube {
+  text-align: center;
+  margin: 5px;
+}
