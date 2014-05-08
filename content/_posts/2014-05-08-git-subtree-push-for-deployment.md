@@ -41,7 +41,7 @@ Git pushes the subset of your repository corresponding to your build
 folder to the `gh-pages` branch, which is then available at
 `http://username.github.io/RepositoryName/`.
 
-Source: https://github.com/yeoman/yeoman/wiki/Deployment
+Source: <https://github.com/yeoman/yeoman/wiki/Deployment>
 
 ### Addendum
 
@@ -51,4 +51,4 @@ branch. You can actually chain git commands together to fix this, thankfully.
 
     git push origin `git subtree split --prefix build_folder master`:gh-pages --force
 
-Source: http://stackoverflow.com/a/13403588/1607849
+Source: <http://stackoverflow.com/a/13403588/1607849>
