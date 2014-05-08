@@ -16,10 +16,8 @@
               %a.back{href:"/blog/"} [^ Back to index]
             #title
               %h2= @item[:title]
-              
-          - if @item[:kind] == "resume"
-            
-          - else # not article
+
+          - unless ["resume", "article"].include? @item[:kind]
             %h1#title
               = @item[:title]
               - if @item[:kind] == 'page' and @item.parent.identifier != '/'
