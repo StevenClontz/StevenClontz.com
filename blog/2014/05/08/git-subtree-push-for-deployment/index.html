@@ -115,14 +115,28 @@ Commit your changes with <code>git commit -m "Added build folder"</code>.</p>
     <p>You’re ready to deploy to GitHub Pages. Whenever you wish to deploy,
 make sure you’ve committed your changes to the repository (which should
 now include your build folder). Then it’s as simple as:</p>
-
-    <p># replace build_folder as appropriate
-  git subtree push –prefix build_folder origin gh-pages</p>
   </li>
 </ul>
+<pre><code>    # replace build_folder as appropriate
+    git subtree push --prefix build_folder origin gh-pages
+</code></pre>
+
 <p>Git pushes the subset of your repository corresponding to your build
 folder to the <code>gh-pages</code> branch, which is then available at
 <code>http://username.github.io/RepositoryName/</code>.</p>
+
+<p>Source: https://github.com/yeoman/yeoman/wiki/Deployment</p>
+
+<h3 id="addendum">Addendum</h3>
+
+<p>One caveat here. Since <code>git subtree push</code> doesn’t have a <code>--force</code> option,
+you will have trouble on the first push if you have an existing <code>gh-pages</code>
+branch. You can actually chain git commands together to fix this, thankfully.</p>
+
+<pre><code>git push origin `git subtree split --prefix build_folder master`:gh-pages --force
+</code></pre>
+
+<p>Source: http://stackoverflow.com/a/13403588/1607849</p>
           </div>
           <p>
             <small>
