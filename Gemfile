@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+ruby File.read('.ruby-version').strip
+
 gem 'nanoc', '3.6.7'
 gem 'adsf' # for nanoc view
 gem 'haml'# for haml items
