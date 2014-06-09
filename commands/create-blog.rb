@@ -1,8 +1,8 @@
 name        'create-blog'
 usage       'create-blog [name] -d [date]'
-aliases     :cb, :create_blog
+aliases     :cb, :create_blog, :"create-post", :create_post, :cp
 summary     'creates a blog post item'
-description <<-DESC 
+description <<-DESC
 Creates /content/_posts/{year}-{month}-{date}-{slug}.md for editing
 as a blog post. The slug comes from the given title, and the date
 can be optionally provided or derived from the current date.
@@ -20,21 +20,21 @@ run do |opts, args, cmd|
     date = opts[:created]
     begin
       created_at = DateTime.parse(date)
-    rescue 
+    rescue
       puts "Invalid datetime (#{date})! Using current time instead."
       created_at = DateTime.now
     end
   else
     created_at = DateTime.now
   end
-  
-  created_date = created_at.strftime("%Y-%m-%d") 
-  created_time = created_at.strftime("%Y-%m-%d %H:%M") 
+
+  created_date = created_at.strftime("%Y-%m-%d")
+  created_time = created_at.strftime("%Y-%m-%d %H:%M")
 
   title = args[0]
   require 'slugify'
   slug = title.slugify
-  
+
   file = "content/_posts/#{created_date}-#{slug}.md"
 
   puts "Creating new blog post: #{file}"
