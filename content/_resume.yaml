@@ -10,19 +10,19 @@ bio:
   website: http://stevenclontz.com
   summary:
     - >
-      Doctoral candidate in Mathematics at Auburn University, studying limited 
-      information strategies in topological games. Has a strong emphasis on 
+      Doctoral candidate in Mathematics at Auburn University, studying limited
+      information strategies in topological games. Has a strong emphasis on
       pedagogy and outreach in addition to research.
     - >
-      Professional programmer and web developer, using languages including 
+      Professional programmer and web developer, using languages including
       Ruby and Python, and frameworks including Rails and Django.
     - >
-      Accomplished puzzle and game designer, organizing several puzzlehunts 
+      Accomplished puzzle and game designer, organizing several puzzlehunts
       in the Auburn, AL area as well as founding the Auburn Mathematical Puzzle
       Challenge outreach event for Auburn University.
     - >
-      Experienced leader, including roles as AU Graduate Student Council 
-      President and course director of a BSA National Youth Leadership Training 
+      Experienced leader, including roles as AU Graduate Student Council
+      President and course director of a BSA National Youth Leadership Training
       camp.
 
 # educational data
@@ -49,7 +49,7 @@ education:
     end_year: 2010
     items:
       - |
-        Thesis on stationary subsets of linearly ordered topological spaces 
+        Thesis on stationary subsets of linearly ordered topological spaces
         (LOTS)
   - institution: Auburn University
     location: "Auburn, AL"
@@ -58,10 +58,10 @@ education:
     start_year: 2010
     items:
       - |
-        Dissertation being written on limited information strategies in 
+        Dissertation being written on limited information strategies in
         topological games
       - |
-        2013 Fitzpatrick Fellow for Auburn graduate students excelling in the 
+        2013 Fitzpatrick Fellow for Auburn graduate students excelling in the
         field of topology
 
 # sections describing experience
@@ -70,11 +70,11 @@ sections:
   - title: Research
     summary:
       - >
-        Research interests include set theoretic topology and game theory, 
-        particularly using the existence of perfect or limited-information strategies 
-        in topological games to characterize topological properties of spaces. 
+        Research interests include set theoretic topology and game theory,
+        particularly using the existence of perfect or limited-information strategies
+        in topological games to characterize topological properties of spaces.
       - >
-        Past research includes polyhedral unfoldings within solid geometry and the 
+        Past research includes polyhedral unfoldings within solid geometry and the
         structure of linearly ordered topological spaces.
       - >
         *Research available online:* <http://github.com/StevenClontz/Research>
@@ -82,30 +82,30 @@ sections:
       - title: Papers
         items:
           - >
-            *The Edge Unfolding of Generalized Pyramids* 
+            *The Edge Unfolding of Generalized Pyramids*
             (Undergraduate honors thesis, April 2008)
             Advisor: Andras Bezdek
           - >+
-            *Applications of Stationary Sets in Set Theoretic Topology* 
+            *Applications of Stationary Sets in Set Theoretic Topology*
             (Masters thesis, October 2010)
             Advisor: Gary Gruenhage
           - >+
-            *Proximal Compact Spaces are Corson Compact* 
-            (Journal article, submitted) 
+            *Proximal Compact Spaces are Corson Compact*
+            (Journal article, submitted)
             Co-author: Gary Gruenhage
           - >+
-            *Limited Information Strategies for Topological Games* 
+            *Limited Information Strategies for Topological Games*
             (PhD dissertation, in progress)
             Advisor: Gary Gruenhage
       - title: Presentations
         items:
           - >+
-            *Limited Information Strategies for Topological Games* 
+            *Limited Information Strategies for Topological Games*
             (February 2013)
-            
+
             AU Research Week 2013
           - >+
-            *Mathematics is All Fun and Games* 
+            *Mathematics is All Fun and Games*
             (October 2013)
             AU COSAM Graduate Student Colloquium; AU DMS Graduate Student
             Colloquium
@@ -114,7 +114,7 @@ sections:
       - title: Awards
         items:
           - |
-            2013 Fitzpatrick Fellow for Auburn graduate students 
+            2013 Fitzpatrick Fellow for Auburn graduate students
             excelling in the field of topology
 
   - title: Instruction
@@ -122,29 +122,29 @@ sections:
       - title: Courses Taught
         items:
           - >+
-            Elementary Algebra - MTH 098 
+            Elementary Algebra - MTH 098
             (Southern Union - Hybrid lab/lecture utilizing ALEKS)
           - (Honors) Calculus I - MATH 1610/7 (Auburn University)
           - Calculus II - MATH 1620 (Auburn University)
           - (Honors) Calculus III - MATH2630/7 (Auburn University)
           - Intermediate Euclidean Geometry - MATH 5380 (Auburn University)
       - title: Student Evaluation Excerpts
-        summary: 
+        summary:
           - <http://stevenclontz.com/teaching>
       - title: Lecture Notes
-        summary: 
+        summary:
           - Notes for multiple courses released open-source online
         items:
           - >+
-            *University Calculus* by Hass, et al 
+            *University Calculus* by Hass, et al
             <https://github.com/StevenClontz/HassNotes-10to14>
           - >+
-            *Calculus: Early Transcendentals* by Stewart 
+            *Calculus: Early Transcendentals* by Stewart
             <https://github.com/StevenClontz/Stewart-12to16>
       - title: Private tutoring
-        summary: 
+        summary:
           - >+
-            For both high school and college students; subjects ranging from 
+            For both high school and college students; subjects ranging from
             ACT/AP preparation, finite mathematics, and Calculus courses.
 
   - title: Outreach
@@ -152,27 +152,27 @@ sections:
       - title: A.M.P.'d (Auburn Mathematical Puzzle) Challenge
         items:
           - >+
-            Co-created annual 
-            [puzzlehunt](http://en.wikipedia.org/wiki/Puzzlehunt)-inspired 
-            mathematics competition for 7th/8th grade students, serving as 
+            Co-created annual
+            [puzzlehunt](http://en.wikipedia.org/wiki/Puzzlehunt)-inspired
+            mathematics competition for 7th/8th grade students, serving as
             Event Director since its inception.
-          - >+ 
-            Served as writer, director, actor, videographer, and editor for 
-            videos featuring the "Auburn Math Police" Commissioner and various 
-            villains framing the scenario for the competition, as well as 
+          - >+
+            Served as writer, director, actor, videographer, and editor for
+            videos featuring the "Auburn Math Police" Commissioner and various
+            villains framing the scenario for the competition, as well as
             designing LaTeX/PDF documentation to match the theme
           - >+
-            Wrote several mathematical puzzles (including subjects like graph 
-            theory, number theory, game theory, geometry, etc.) to be solved by 
-            teams of 6-8 students, and presented to mathematics graduate student 
+            Wrote several mathematical puzzles (including subjects like graph
+            theory, number theory, game theory, geometry, etc.) to be solved by
+            teams of 6-8 students, and presented to mathematics graduate student
             judges.
           - >+
-            Coordinated a staff of 35 graduate and undergraduate student 
+            Coordinated a staff of 35 graduate and undergraduate student
             volunteers along with AU COSAM Outreach leadership.
       - title: AU Explore - Math EXPO
         items:
           - >+
-            Annual workshop for 5th grade students to play while using and 
+            Annual workshop for 5th grade students to play while using and
             learning mathematics
           - >+
             Event coordinator for 2013-2014, volunteer from 2009-2012
@@ -200,44 +200,49 @@ sections:
       - title: Web Applications
         items:
           - >+
-            Co-developed 
-            [Puzzle Console](https://github.com/jamesdabbs/puzzle-console) 
+            Co-developed
+            [Puzzle Console](https://github.com/jamesdabbs/puzzle-console)
             web app for the online administration of puzzlehunt competitions
           - >+
             Created <gradecalc.stevenclontz.com> JS app for quick and simple
             computation of students' current and desired grades.
           - >+
-            Co-founded Teloga, LLC and co-developed 
-            [Teloga.com](http://www.teloga.com) Musician Networks website for 
-            musician networking and event/ensemble registration for high school 
+            Co-founded Teloga, LLC and co-developed
+            [Teloga.com](http://www.teloga.com) Musician Networks website for
+            musician networking and event/ensemble registration for high school
             and college music organizations
+      - title: Open Source contributions
+        items:
+          - lazy-high-charts
+          - angular-rails-resource
       - title: Specialist IV - Information Technology
-        summary: 
+        summary:
           - Employed by AU Office of University Writing
         items:
-          - Managed and analyzed assessment data for the ePortfolio Project
-          - Developed custom Wordpress CMS for office website
-          - Implemented CRM and project management web applications
+          - >
+            Managed and analyzed assessment data and designed surveys for the
+            ePortfolio Project
+          - Recommended CRM and project management web applications
 
   - title: Puzzle and Game Design
     sections:
       - title: Auburn Puzzler
-        summary: 
+        summary:
           - >+
             Co-organized an informal Alternate Reality Game (ARG) featuring an
-            enigmatic "Puzzler" who left several mini puzzlehunts on Auburn 
+            enigmatic "Puzzler" who left several mini puzzlehunts on Auburn
             University's campus running from April to August 2009.
-      - title: Auburn Puzzle Party 
+      - title: Auburn Puzzle Party
         items:
           - <http://auburnpuzzleparty.wikia.com>
           - >+
-            Led a staff of around a dozen volunteers to design and run the Auburn 
+            Led a staff of around a dozen volunteers to design and run the Auburn
             Puzzle Party puzzlehunt events APP4 (2010) and APP5 (2012)
           - Created several videos and web applications as a part of both events
           - >+
             Played on the winnning APP3, EPP13, APP6, and EPP14 teams.
       - title: A.M.P.'d Challenge
-        summary: 
+        summary:
           - >+
             Created mathematical puzzle competition at Auburn University.
             (See Outreach.)
@@ -248,7 +253,7 @@ sections:
         items:
           - Eagle Scout
           - >+
-            National Youth Leadership Training staffer 2003-2011, 
+            National Youth Leadership Training staffer 2003-2011,
             Course Leader in 2006
       - title: Auburn University
         items:
@@ -267,14 +272,14 @@ sections:
     items:
       - >+
         **Mathematics** -
-        Set theoretic topology, game theory, graph theory, geometry, calculus, 
+        Set theoretic topology, game theory, graph theory, geometry, calculus,
         proof techniques, pedagogy
       - >+
         **Programming** -
-        HTML5, CSS (LESS, SASS), Javascript (jQuery, Coffeescript), 
-        PHP (Wordpress, Wolf CMS), Python (Django), 
+        HTML5, CSS (LESS, SASS), Javascript (jQuery, Coffeescript),
+        PHP (Wordpress, Wolf CMS), Python (Django),
         Ruby (Rails, nanoc), SQL, LaTeX, Git
 
 references:
-  summary: 
+  summary:
     - Available upon request.

@@ -14,11 +14,11 @@
   %a{href:bio[:website]}=bio[:website]
 
 %section#bio
-  
+
   %h2 Biography
   -bio[:summary].each do |p|
-    %p= Kramdown::Document.new(p).to_html
-  
+    %p= p
+
 
 %section#education
   %h2 Education
@@ -32,37 +32,36 @@
     - if e[:items]
       %ul
         - e[:items].each do |l|
-          %li=Kramdown::Document.new(l).to_html
+          %li=l
 
 - @item[:sections].each do |section|
   %section
     %h2=section[:title]
     - if section[:summary]
       - section[:summary].each do |p|
-        %p=Kramdown::Document.new(p).to_html
+        %p=p
     - if section[:items]
       %ul
         - section[:items].each do |l|
-          %li=Kramdown::Document.new(l).to_html
-          
+          %li=l
+
     - if section[:sections]
       - section[:sections].each do |section|
         %h3=section[:title]
         - if section[:summary]
           - section[:summary].each do |p|
-            %p=Kramdown::Document.new(p).to_html
+            %p=p
         - if section[:items]
           %ul
             - section[:items].each do |l|
-              %li=Kramdown::Document.new(l).to_html
+              %li=l
 
 %section#references
   %h2 References
   - if ref[:summary]
     - ref[:summary].each do |p|
-      %p=Kramdown::Document.new(p).to_html
+      %p=p
   - if ref[:items]
     %ul
       - ref[:items].each do |l|
-        %li=Kramdown::Document.new(l).to_html
-  
+        %li=l
