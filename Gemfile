@@ -5,8 +5,8 @@ ruby File.read('.ruby-version').strip
 gem 'nanoc', '3.6.7'
 gem 'adsf' # for nanoc view
 gem 'haml'# for haml items
-gem 'kramdown'# for markdown items
-gem 'haml-kramdown'# for kramdown in haml
+gem 'maruku' # for markdown
+gem 'kramdown' # also for markdown TODO: clean this up
 gem 'therubyracer'
 gem 'guard-nanoc'
 gem 'nokogiri' # for relative linking

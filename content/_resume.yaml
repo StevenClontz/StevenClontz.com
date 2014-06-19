@@ -102,7 +102,6 @@ sections:
           - >+
             *Limited Information Strategies for Topological Games*
             (February 2013)
-
             AU Research Week 2013
           - >+
             *Mathematics is All Fun and Games*
@@ -130,7 +129,7 @@ sections:
           - Intermediate Euclidean Geometry - MATH 5380 (Auburn University)
       - title: Student Evaluation Excerpts
         summary:
-          - <http://stevenclontz.com/teaching>
+          - "http://stevenclontz.com/teaching"
       - title: Lecture Notes
         summary:
           - Notes for multiple courses released open-source online
@@ -146,6 +145,14 @@ sections:
           - >+
             For both high school and college students; subjects ranging from
             ACT/AP preparation, finite mathematics, and Calculus courses.
+      - title: Talks / Publications
+        items:
+          - >
+            Inquiry-based learning panelist for Alabama Association of College
+            Teachers of Mathematics 2014 meeting
+          - >
+            Contributer to "Introduction to Vietoris Homology" IBL text by
+            Krystina Kuperberg
 
   - title: Outreach
     sections:
@@ -184,8 +191,8 @@ sections:
 
   - title: Software Engineering
     items:
-      - "GitHub: [@StevenClontz](http://github.com/StevenClontz)"
-      - "Portfolio: <http://stevenclontz.com/code/web/>"
+      - "[@StevenClontz](http://github.com/StevenClontz)"
+      - "<http://stevenclontz.com/code/web/>"
     sections:
       - title: Content Management Systems
         items:
@@ -204,8 +211,8 @@ sections:
             [Puzzle Console](https://github.com/jamesdabbs/puzzle-console)
             web app for the online administration of puzzlehunt competitions
           - >+
-            Created <gradecalc.stevenclontz.com> JS app for quick and simple
-            computation of students' current and desired grades.
+            Created <http://gradecalc.stevenclontz.com> JS app for quick and
+            simple computation of students' current and desired grades.
           - >+
             Co-founded Teloga, LLC and co-developed
             [Teloga.com](http://www.teloga.com) Musician Networks website for
@@ -246,6 +253,12 @@ sections:
           - >+
             Created mathematical puzzle competition at Auburn University.
             (See Outreach.)
+      - title: Lamar Mathematical Puzzle Challenge
+        summary:
+          - >
+            Hired to design mathematics puzzle competition for high school
+            students at Lamar University in Beaumont, Texas during 2014-15
+            school year
 
   - title: Leadership
     sections:
@@ -276,7 +289,7 @@ sections:
         proof techniques, pedagogy
       - >+
         **Programming** -
-        HTML5, CSS (LESS, SASS), Javascript (jQuery, Coffeescript),
+        HTML5, CSS (LESS, SASS), Javascript (jQuery, Coffeescript, AngularJS),
         PHP (Wordpress, Wolf CMS), Python (Django),
         Ruby (Rails, nanoc), SQL, LaTeX, Git
 

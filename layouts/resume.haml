@@ -17,7 +17,9 @@
 
   %h2 Biography
   -bio[:summary].each do |p|
-    %p= p
+    %p
+      :markdown
+        #{p}
 
 
 %section#education
@@ -32,36 +34,50 @@
     - if e[:items]
       %ul
         - e[:items].each do |l|
-          %li=l
+          %li
+            :markdown
+              #{l}
 
 - @item[:sections].each do |section|
   %section
     %h2=section[:title]
     - if section[:summary]
       - section[:summary].each do |p|
-        %p=p
+        %p
+          :markdown
+            #{p}
     - if section[:items]
       %ul
         - section[:items].each do |l|
-          %li=l
+          %li
+            :markdown
+              #{l}
 
     - if section[:sections]
       - section[:sections].each do |section|
         %h3=section[:title]
         - if section[:summary]
           - section[:summary].each do |p|
-            %p=p
+            %p
+              :markdown
+                #{p}
         - if section[:items]
           %ul
             - section[:items].each do |l|
-              %li=l
+              %li
+                :markdown
+                  #{l}
 
 %section#references
   %h2 References
   - if ref[:summary]
     - ref[:summary].each do |p|
-      %p=p
+      %p
+        :markdown
+          #{p}
   - if ref[:items]
     %ul
       - ref[:items].each do |l|
-        %li=l
+        %li
+          :markdown
+            #{l}
