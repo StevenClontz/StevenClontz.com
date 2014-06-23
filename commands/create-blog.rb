@@ -33,7 +33,7 @@ run do |opts, args, cmd|
 
   title = args[0]
   require 'slugify'
-  slug = title.slugify
+  slug = title ? title.slugify : 'untitled'
 
   file = "content/_posts/#{created_date}-#{slug}.md"
 
