@@ -15,7 +15,8 @@ bio:
       pedagogy and outreach in addition to research.
     - >
       Professional programmer and web developer, using languages including
-      Ruby and Python, and frameworks including Rails and Django.
+      Javascript, Ruby, and Python, and frameworks including AngularJS, Rails,
+      and Django.
     - >
       Accomplished puzzle and game designer, organizing several puzzlehunts
       in the Auburn, AL area as well as founding the Auburn Mathematical Puzzle
@@ -39,7 +40,6 @@ education:
       - Dean's Medalist
       - Phi Kappa Phi
       - Phi Beta Kappa
-      - Honors thesis on unfoldings of convex polyhedra
       - Undergraduate Research Fellow
   - institution: Auburn University
     location: "Auburn, AL"
@@ -49,8 +49,7 @@ education:
     end_year: 2010
     items:
       - |
-        Thesis on stationary subsets of linearly ordered topological spaces
-        (LOTS)
+        Thesis - *Applications of Stationary Sets in Set Theoretic Topology*
   - institution: Auburn University
     location: "Auburn, AL"
     url: http://www.auburn.edu
@@ -58,11 +57,9 @@ education:
     start_year: 2010
     items:
       - |
-        Dissertation being written on limited information strategies in
-        topological games
+        Dissertation - *Limited Information Strategies for Topological Games*
       - |
-        2013 Fitzpatrick Fellow for Auburn graduate students excelling in the
-        field of topology
+        2013 Fitzpatrick Fellow
 
 # sections describing experience
 sections:
@@ -70,14 +67,17 @@ sections:
   - title: Research
     summary:
       - >
-        Research interests include set theoretic topology and game theory,
-        particularly using the existence of perfect or limited-information strategies
-        in topological games to characterize topological properties of spaces.
+        Current research involves the intersection of set-theoretic topology and
+        infinite combinatorial games. In particular, this research includes
+        results on characterizing covering properties using limited information
+        strategies in topological games.
       - >
-        Past research includes polyhedral unfoldings within solid geometry and the
-        structure of linearly ordered topological spaces.
+        Examples include Gruenhage's W-convergence game, Gruenhage's
+        compact-point/compact game, Menger's covering game,
+        Rothberger's covering game, and Bell's proximal game.
       - >
-        *Research available online:* <http://github.com/StevenClontz/Research>
+        Previous work involves stationary subsets of linearly ordered topological
+        spaces and unfoldings of convex polyhedra into the plane.
     sections:
       - title: Papers
         items:
@@ -91,11 +91,11 @@ sections:
             Advisor: Gary Gruenhage
           - >+
             *Proximal Compact Spaces are Corson Compact*
-            (Journal article, submitted)
+            (Topology and Its Applications, August 2014)
             Co-author: Gary Gruenhage
           - >+
             *Limited Information Strategies for Topological Games*
-            (PhD dissertation, in progress)
+            (PhD dissertation, May 2015)
             Advisor: Gary Gruenhage
       - title: Presentations
         items:
@@ -106,12 +106,24 @@ sections:
           - >+
             *Mathematics is All Fun and Games*
             (October 2013)
-            AU COSAM Graduate Student Colloquium; AU DMS Graduate Student
-            Colloquium
+            AU COSAM Graduate Student Colloquium;
+            AU DMS Graduate Student Colloquium
           - >+
             *Finite and Infinite Games / Ungraduate Research and Grad School*
             (June 2014)
             Lamar University
+          - >+
+            *Game-theoretic strengthenings of Menger’s property*
+            (July 2014; November 2014)
+            Summer Topology Conference at CUNY;
+            AMS Special Session at Greensboro, NC
+          - >+
+            *Proximal compact spaces are Corson compact*
+            (January 2015)
+            MAA/AMS Joint Mathematics Meetings at San Antonio, TX
+          - >+
+            Several talks on Topology, Set Theory, and Game Theory for
+            AU Mathematics REU (Summers 2010-2014)
           - >+
             Frequent speaker in AU Set-Theoretic Topology Seminar
       - title: Awards
@@ -133,16 +145,19 @@ sections:
           - Intermediate Euclidean Geometry - MATH 5380 (Auburn University)
       - title: Student Evaluation Excerpts
         summary:
-          - "http://stevenclontz.com/teaching"
+          - Website - <http://stevenclontz.com/teaching>
       - title: Lecture Notes
         summary:
           - Notes for multiple courses released open-source online
         items:
           - >+
-            *University Calculus* by Hass, et al
+            Calculus II
+            <https://github.com/StevenClontz/teaching-2014-fall>
+          - >+
+            Calculus III (Based on Hass text)
             <https://github.com/StevenClontz/HassNotes-10to14>
           - >+
-            *Calculus: Early Transcendentals* by Stewart
+            Calculus III (Based on Stewart text)
             <https://github.com/StevenClontz/Stewart-12to16>
       - title: Private tutoring
         summary:
@@ -166,7 +181,8 @@ sections:
             Co-created annual
             [puzzlehunt](http://en.wikipedia.org/wiki/Puzzlehunt)-inspired
             mathematics competition for 7th/8th grade students, serving as
-            Event Director since its inception.
+            Coordinator and Designer for its first three events from 2012 to
+            2013.
           - >+
             Served as writer, director, actor, videographer, and editor for
             videos featuring the "Auburn Math Police" Commissioner and various
@@ -193,10 +209,10 @@ sections:
           - Science Olympiad for Elementary School (event designer)
           - Science Olympiad for Middle School (event coordinator)
 
-  - title: Software Engineering
-    items:
-      - "[@StevenClontz](http://github.com/StevenClontz)"
-      - "<http://stevenclontz.com/code/web/>"
+  - title: Software Development
+    summary:
+      - "Github - [@StevenClontz](http://github.com/StevenClontz)"
+      - "Website - <http://stevenclontz.com/code/>"
     sections:
       - title: Content Management Systems
         items:
@@ -225,10 +241,16 @@ sections:
       - title: Open Source contributions
         items:
           - lazy-high-charts
-          - angular-rails-resource
+          - angularjs-rails-resource
+          - angular_devise
+      - title: Invited Talks
+        items:
+          - >+
+            Presentation for The Iron Yard (Atlanta) Ruby on Rails course on
+            implementing AngularJS
       - title: Specialist IV - Information Technology
         summary:
-          - Employed by AU Office of University Writing
+          - Employed by AU Office of University Writing for Spring 2014
         items:
           - >
             Managed and analyzed assessment data and designed surveys for the
@@ -260,9 +282,8 @@ sections:
       - title: Lamar Mathematical Puzzle Challenge
         summary:
           - >
-            Hired to design mathematics puzzle competition for high school
-            students at Lamar University in Beaumont, Texas during 2014-15
-            school year
+            Consultant responsible for designing a mathematics puzzle
+            competition for high school students for the 2014-2015 school year
 
   - title: Leadership
     sections:
@@ -275,15 +296,15 @@ sections:
       - title: Auburn University
         items:
           - >+
-            Auburn University Bands Freshman Advisor ("R.A.T. Leader") in 2007
+            Auburn University Bands Freshman Adviser for 2007-2008
           - >+
             Founded Math Club in 2008 as Vice President
           - >+
-            Appointed Graduate Student Council Webmaster in 2010
+            Graduate Student Council President and Executive Board Member
+            between 2010-2012
           - >+
-            Elected Graduate Student Council President in 2011
-          - >+
-            Founded Dept. of Math and Stats Graduate Student Leaders organization
+            Founded Department of Mathematics and Statistics
+            Graduate Student Leaders organization in 2013
 
   - title: Competencies and Interests
     items:
