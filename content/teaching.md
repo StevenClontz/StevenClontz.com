@@ -6,7 +6,7 @@ I love teaching! I trace my interest in education back to my teenage years spent
 
 ## Philosophy
 
-I owe you a teaching statement.. <!-- TODO -->
+[Click here to read my Philosophy of Teaching (PDF).](/assets/TeachingStatement.pdf)
 
 ## Teaching Evaluations
 
@@ -69,17 +69,17 @@ While at Auburn University, I had the opportunity to work with hundreds of stude
 > That's pretty much it. Steven Clontz did an overall pretty good job, was open, fair, and wanted the students to succeed. its their fault if they didn't.
 > Personal note to Mr. Clontz: Thank you so much for instructing this class and may God bless your future endeavors. (if you believe in God, its kinda a hit or miss with these math and science folk.)
 > WDE
- 
+
 > It's hard to fit 15 weeks of math into 10 weeks, but this was not a problem for this class. I would have liked to see more problems worked, though.
- 
+
 > Mr. clontz is a great teacher. he explains the material very well. his only issue to me is his grading strategy. he is very strict on minor mistakes and counts off dealy. in all other aspects he is a great teacher though
- 
+
 > Great teacher. Better than my professor in Cal II.
 > A little slow on grading tests but understandable.
 > Grades are very fair. Can fight for a grade and if he agrees he will award you a few points.
 > Very quirky, but very funny teacher.
 > Overall: Enjoyed thoroughly
- 
+
 > Steven was an awesome teacher! The class notes were really helpful with learning in class, because they provided a bit of an outline of what was going to be covered that day. No complaints.
- 
+
 > The study guides were a little too gentle. Sometimes they were carbon copies of the tests. I think making the course a little more challenging would be better, but overall I liked the teaching.

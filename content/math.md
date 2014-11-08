@@ -22,8 +22,8 @@ chess!)
 [Dr. Gary Gruenhage](http://www.auburn.edu/~gruengf/) took me on as a student
 while I worked on my master's degree in topology, studying known properties
 of LOTS: linearly ordered topological spaces, a generalization of the real
-numbers. While working with him, I also took a course in descriptive set 
-theory, and when I started learning about 
+numbers. While working with him, I also took a course in descriptive set
+theory, and when I started learning about
 [the Borel determinacy theorem](http://en.wikipedia.org/wiki/Borel_determinacy_theorem)
 I was exposed to the world of $$\omega$$-length games.
 
@@ -33,8 +33,8 @@ player lacks an unbeatable strategy in a game using open covers of the space.
 
 ## Considering Limited Information
 
-$$\omega$$-length means these games last a long time 
-([to say the least](http://en.wikipedia.org/wiki/Ordinal_number#Ordinals_extend_the_natural_numbers)). 
+$$\omega$$-length means these games last a long time
+([to say the least](http://en.wikipedia.org/wiki/Ordinal_number#Ordinals_extend_the_natural_numbers)).
 So what if a player had an imperfect memory?
 
 These sorts of considerations turn out to be pretty useful in finding stronger
@@ -47,17 +47,17 @@ In the game I referred to above, the second player has an unbeatable Markov
 strategy if and only if the space is a countable union of compact spaces.
 Which adds up: if the second player has a Markov winning strategy, then
 the first player can't have a winning strategy. This proves that every space
-which is the countable union of compact spaces is a Menger space. You could 
-prove it directly, but why would you want to when there are all these fun 
+which is the countable union of compact spaces is a Menger space. You could
+prove it directly, but why would you want to when there are all these fun
 games you can play instead? :-)
 
 The interested mathematician who wants to learn more is encouraged to check
-out 
+out
 [The Story of a Topological Game](http://www.auburn.edu/~gruengf/preprints/gamesurv9.pdf)
 which Gary Gruenhage wrote to describe a different game which
-he designed as a part of his dissertation, and many of its applications found 
+he designed as a part of his dissertation, and many of its applications found
 down the road.
 
-## What I've Done
+## Research Statement
 
-A good overview of my research can be found in my [CV](/resume/).
+[Click here to read my Research Statement (PDF).](/assets/ResearchStatement.pdf)
