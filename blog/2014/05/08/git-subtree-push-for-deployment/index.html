@@ -1,71 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<title>
-    `git-subtree` for GitHub Pages deployment
-    |
-    StevenClontz.com
-  </title>
-<link href="../../../../../assets/bootswatch-flatly.css" rel="stylesheet">
-<link href="../../../../../assets/style.css" rel="stylesheet">
-<link href="http://www.stevenclontz.com/" rel="canonical">
-<link href="../../../../../assets/favicon.ico" rel="icon">
-<meta description="Mathematician, educator, programmer, and puzzler">
-<meta content="nanoc 3.6.7" name="generator">
-<meta content="Steven Clontz" name="author">
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-<meta content="http://i.imgur.com/CKetep2.jpg" property="og:image">
-<meta content="Mathematician, educator, programmer, and puzzler" property="og:description">
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script><script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-</head>
-<body>
+    <meta charset="utf-8">
+    <title>
+      `git-subtree` for GitHub Pages deployment
+      |
+      StevenClontz.com
+    </title>
+    <link href="../../../../../assets/bootswatch-flatly.css" rel="stylesheet">
+    <link href="../../../../../assets/style.css" rel="stylesheet">
+    <link href="http://www.stevenclontz.com/" rel="canonical">
+    <link href="../../../../../assets/favicon.ico" rel="icon">
+    <meta description="Mathematician, educator, programmer, and puzzler">
+    <meta content="nanoc 3.6.7" name="generator">
+    <meta content="Steven Clontz" name="author">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="http://i.imgur.com/CKetep2.jpg" property="og:image">
+    <meta content="Mathematician, educator, programmer, and puzzler" property="og:description">
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  </head>
+  <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-offset-1 col-lg-10">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="../../../../../">StevenClontz.com</a>
-          <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-offset-1 col-lg-10">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="../../../../../">StevenClontz.com</a>
+              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse navbar-inverse-collapse">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="../../../../">Blog</a>
+                </li>
+                <li>
+                  <a href="../../../../../math/">Math</a>
+                </li>
+                <li>
+                  <a href="../../../../../teaching/">Teaching</a>
+                </li>
+                <li>
+                  <a href="../../../../../code/">Code</a>
+                </li>
+                <li>
+                  <a href="../../../../../puzzles/">Puzzles</a>
+                </li>
+                <li>
+                  <a href="../../../../../about/">About</a>
+                </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="../../../../../resume/">CV/Resume</a>
+                </li>
+              </ul>
+              <!-- %li -->
+              <!-- %a{href:"/contact/"} Contact -->
+            </div>
+          </div>
         </div>
-        <div class="navbar-collapse collapse navbar-inverse-collapse">
-          <ul class="nav navbar-nav">
-<li>
-              <a href="../../../../">Blog</a>
-            </li>
-            <li>
-              <a href="../../../../../math/">Math</a>
-            </li>
-            <li>
-              <a href="../../../../../teaching/">Teaching</a>
-            </li>
-            <li>
-              <a href="../../../../../code/">Code</a>
-            </li>
-            <li>
-              <a href="../../../../../puzzles/">Puzzles</a>
-            </li>
-            <li>
-              <a href="../../../../../about/">About</a>
-            </li>
-          </ul>
-<ul class="nav navbar-nav navbar-right">
-<li>
-              <a href="../../../../../resume/">CV/Resume</a>
-            </li>
-          </ul>
-<!-- %li --><!-- %a{href:"/contact/"} Contact -->
-</div>
       </div>
     </div>
-  </div>
-</div>
     <div class="container" id="main">
       <div class="row">
         <div class="col-lg-offset-1 col-lg-10">
@@ -84,64 +87,65 @@
           </h4>
           <div id="content">
             <p>Picking up Yeoman today, and in the process learned a slick trick
-for GitHub Pages. A common pattern in both Nanoc and a Yeoman AngularJS
-generated project is to have a built version of the site/app within
-the project folder, but untracked. Previously, I set up a separate
-Git repository within that subfolder in order to push to
-<code>gh-pages</code> for publishing. But there’s a better way.</p>
-
-<!-- more -->
-
-<p>Enter <code>git subtree</code>: rather than the process of maintaining a separate
-repository for the build folder, Git is able to simply push it using
-the existing repository. Here are the steps:</p>
-
-<ul>
-<li>
-    <p>First, build your project. For nanoc, this is <code>nanoc compile</code>
-(or just <code>nanoc</code>); for Grunt, this is <code>grunt build</code>.</p>
-  </li>
-  <li>
-    <p>If your build folder is in <code>.gitignore</code>, then remove it. We will track
-changes to the built site alongside your source.</p>
-  </li>
-  <li>
-    <p>Add the build folder to the repository with <code>git add build_folder</code>,
-replacing <code>build_folder</code> with <code>output</code>/<code>dist</code>/etc. as appropriate.
-Also add the new <code>.gitignore</code> with <code>git add .gitignore</code>.
-Commit your changes with <code>git commit -m "Added build folder"</code>.</p>
-  </li>
-  <li>
-    <p>You’re ready to deploy to GitHub Pages. Whenever you wish to deploy,
-make sure you’ve committed your changes to the repository (which should
-now include your build folder). Then it’s as simple as:</p>
-  </li>
-</ul>
-<pre><code>    # replace build_folder as appropriate
-    git subtree push --prefix build_folder origin gh-pages
-</code></pre>
-
-<p>Git pushes the subset of your repository corresponding to your build
-folder to the <code>gh-pages</code> branch, which is then available at
-<code>http://username.github.io/RepositoryName/</code>.</p>
-
-<p>Since the subtree push command is rather verbose, I wrote a nanoc command
-to handle it for my blog:
-<a href="https://github.com/StevenClontz/StevenClontz.com/blob/master/commands/deploy-ghpages.rb">https://github.com/StevenClontz/StevenClontz.com/blob/master/commands/deploy-ghpages.rb</a></p>
-
-<p>Credit goes to the Yeoman wiki for showing me the light: 
-<a href="https://github.com/yeoman/yeoman/wiki/Deployment">https://github.com/yeoman/yeoman/wiki/Deployment</a></p>
-
-<h3 id="addendum">Addendum</h3>
-
-<p>One caveat here. Since <code>git subtree push</code> doesn’t have a <code>--force</code> option,
-you will have trouble on the first push if you have an existing <code>gh-pages</code>
-branch. You can actually chain git commands together to fix this, thankfully.</p>
-
-<pre><code>git push origin `git subtree split --prefix build_folder master`:gh-pages --force
-</code></pre>
-
-<p>Source: <a href="http://stackoverflow.com/a/13403588/1607849">http://stackoverflow.com/a/13403588/1607849</a></p>
+            for GitHub Pages. A common pattern in both Nanoc and a Yeoman AngularJS
+            generated project is to have a built version of the site/app within
+            the project folder, but untracked. Previously, I set up a separate
+            Git repository within that subfolder in order to push to
+            <code>gh-pages</code> for publishing. But there’s a better way.</p>
+            
+            <!-- more -->
+            
+            <p>Enter <code>git subtree</code>: rather than the process of maintaining a separate
+            repository for the build folder, Git is able to simply push it using
+            the existing repository. Here are the steps:</p>
+            
+            <ul>
+              <li>
+                <p>First, build your project. For nanoc, this is <code>nanoc compile</code>
+            (or just <code>nanoc</code>); for Grunt, this is <code>grunt build</code>.</p>
+              </li>
+              <li>
+                <p>If your build folder is in <code>.gitignore</code>, then remove it. We will track
+            changes to the built site alongside your source.</p>
+              </li>
+              <li>
+                <p>Add the build folder to the repository with <code>git add build_folder</code>,
+            replacing <code>build_folder</code> with <code>output</code>/<code>dist</code>/etc. as appropriate.
+            Also add the new <code>.gitignore</code> with <code>git add .gitignore</code>.
+            Commit your changes with <code>git commit -m "Added build folder"</code>.</p>
+              </li>
+              <li>
+                <p>You’re ready to deploy to GitHub Pages. Whenever you wish to deploy,
+            make sure you’ve committed your changes to the repository (which should
+            now include your build folder). Then it’s as simple as:</p>
+              </li>
+            </ul>
+            
+            <pre><code>    # replace build_folder as appropriate
+                git subtree push --prefix build_folder origin gh-pages
+            </code></pre>
+            
+            <p>Git pushes the subset of your repository corresponding to your build
+            folder to the <code>gh-pages</code> branch, which is then available at
+            <code>http://username.github.io/RepositoryName/</code>.</p>
+            
+            <p>Since the subtree push command is rather verbose, I wrote a nanoc command
+            to handle it for my blog:
+            <a href="https://github.com/StevenClontz/StevenClontz.com/blob/master/commands/deploy-ghpages.rb">https://github.com/StevenClontz/StevenClontz.com/blob/master/commands/deploy-ghpages.rb</a></p>
+            
+            <p>Credit goes to the Yeoman wiki for showing me the light: 
+            <a href="https://github.com/yeoman/yeoman/wiki/Deployment">https://github.com/yeoman/yeoman/wiki/Deployment</a></p>
+            
+            <h3 id="addendum">Addendum</h3>
+            
+            <p>One caveat here. Since <code>git subtree push</code> doesn’t have a <code>--force</code> option,
+            you will have trouble on the first push if you have an existing <code>gh-pages</code>
+            branch. You can actually chain git commands together to fix this, thankfully.</p>
+            
+            <pre><code>git push origin `git subtree split --prefix build_folder master`:gh-pages --force
+            </code></pre>
+            
+            <p>Source: <a href="http://stackoverflow.com/a/13403588/1607849">http://stackoverflow.com/a/13403588/1607849</a></p>
           </div>
           <p>
             <small>
@@ -153,7 +157,8 @@ branch. You can actually chain git commands together to fix this, thankfully.</p
         </div>
       </div>
     </div>
-    <section class="container" id="footer"><p>
+    <section class="container" id="footer">
+      <p>
         Content ©
         2014
         <a href="../../../../../contact/">Steven Clontz</a>
@@ -167,5 +172,5 @@ branch. You can actually chain git commands together to fix this, thankfully.</p
         <a href="http://nanoc.ws">nanoc</a>
       </p>
     </section>
-</body>
+  </body>
 </html>
