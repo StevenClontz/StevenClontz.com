@@ -14,6 +14,57 @@ While at Auburn University, I had the opportunity to work with hundreds of stude
 
 ![](/assets/images/teaching.jpg)
 
+### Fall 2014
+
+Survey results from 23 of 52 students:
+
+* The Instructor encouraged me to think critically.
+  **5.8/6.0**
+* The grading techniques were fair.
+  **5.9/6.0**
+* The Instructor created a conducive atmosphere for learning.
+  **5.8/6.0**
+* The Instructor explained course material clearly.
+  **5.8/6.0**
+* The Instructor enhanced my interest in the subject.
+  **5.3/6.0**
+* The Instructor was available and approachable outside of class.
+  **5.7/6.0**
+* The Instructor provided timely feedback on graded material.
+  **5.3/6.0**
+* The Instructor’s overall teaching effectiveness was...
+  **5.7/6.0**
+* Overall, my learning in the class was...
+  **5.5/6.0**
+
+Written comments:
+
+> Mr. Clontz has done an incredible job not only teaching his students the course material but also providing us with problems that challenge us to apply what we learn in class and take such abilities/concepts to the next level. This semester, I found that I was challenged in new ways that required critical thinking and employment of skills learned in class, and Mr. Clontz was available whenever the class hit a roadblock. He needs to update canvas in a manner that ensures the canvas grade is a clear reflection of our actual grade though!
+
+> Fantastic teacher that had a very cool and unique teaching style that made everything very clear. He did however lack the information on what we can expect for our upcoming final which is somewhat needed and a terrible error by the department.
+
+> Calc 2 is definitely a hard course but Mr. Clontz taught it in a way that made it easier to understand. Very glad he was my professor for the semester.
+
+> Loved my class with Mr. Clontz! He understood that the material was difficult and spent more time going through most chapters. He also graded very fairly and gave many opportunities to improve you grade. Would take him again!
+
+> Clontz is incredible. Should be a model for the math department. Best math teacher I have had at auburn so far. Keep doing you man
+
+> Great enthusiastic teacher
+
+> Best Calculus 2 teacher as far as I'm concerned. He taught the material in a way where it was easy to obtain and I was comfortable going home and practicing on my own. He engaged the class and allowed us to teach certain practice problems to one another, for better understanding. His lessons were brief and to the point, rather than long and drawn out. He gives the student numerous opportunities to succeed and obtain at least a B.
+
+> I am not a math person but Mr. Clontz did an excellent job of both explaining the material and demonstrating different ways of solving problems. I would highly recommend someone to take his class if they could.
+
+> Mr. Clontz is awesome. Many STEM professors have a reputation for being hard to talk with and approach, but he is not so. He's nice to everyone and always willing to pause if we have questions about a problem. I can tell he really wants us to do well in Calculus and in life. One potential area for improvement may be going more slowly when he's writing on the chalkboard. I have a hard time keeping up when he's teaching new material.
+
+> I really liked the way he structured his course. The packets that you follow along with, the assigned problems that we present in class, and the weekly quizzes on Mondays was an effective way of teaching for me. Many people might not like the forced involvement but it really helps with engaging you with the work. You want to be able to explain the problem to the class, which helps further your own understanding.
+
+### Spring 2014
+
+No evaluations are availble for this semester as I
+took a sabbatical from teaching to work as a software developer for
+Auburn's Office of Univeristy Writing.
+
 ### Fall 2013
 
 > Steven was the best calculus teacher I have had at Auburn. He explained the material very well, breaking it down piece by piece to help everyone understand. He was always willing to help and made class interesting.
