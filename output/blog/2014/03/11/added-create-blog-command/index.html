@@ -1,74 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>
-      Added create_blog command
-      |
-      StevenClontz.com
-    </title>
-    <link href="../../../../../assets/bootswatch-flatly.css" rel="stylesheet">
-    <link href="../../../../../assets/style.css" rel="stylesheet">
-    <link href="http://www.stevenclontz.com/" rel="canonical">
-    <link href="../../../../../assets/favicon.ico" rel="icon">
-    <meta description="Mathematician, educator, programmer, and puzzler">
-    <meta content="nanoc 3.6.7" name="generator">
-    <meta content="Steven Clontz" name="author">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-    <meta content="http://i.imgur.com/CKetep2.jpg" property="og:image">
-    <meta content="Mathematician, educator, programmer, and puzzler" property="og:description">
-    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-  </head>
-  <body>
+<meta charset="utf-8">
+<title>
+    Added create_blog command
+    |
+    StevenClontz.com
+  </title>
+<link href="../../../../../assets/bootswatch-flatly.css" rel="stylesheet">
+<link href="../../../../../assets/style.css" rel="stylesheet">
+<link href="http://www.stevenclontz.com/" rel="canonical">
+<link href="../../../../../assets/favicon.ico" rel="icon">
+<meta description="Mathematician, educator, programmer, and puzzler">
+<meta content="nanoc 3.6.7" name="generator">
+<meta content="Steven Clontz" name="author">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta content="http://i.imgur.com/CKetep2.jpg" property="og:image">
+<meta content="Mathematician, educator, programmer, and puzzler" property="og:description">
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script><script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
     <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-offset-1 col-lg-10">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="../../../../../">StevenClontz.com</a>
-              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="navbar-collapse collapse navbar-inverse-collapse">
-              <ul class="nav navbar-nav">
-                <li>
-                  <a href="../../../../">Blog</a>
-                </li>
-                <li>
-                  <a href="../../../../../math/">Math</a>
-                </li>
-                <li>
-                  <a href="../../../../../teaching/">Teaching</a>
-                </li>
-                <li>
-                  <a href="../../../../../code/">Code</a>
-                </li>
-                <li>
-                  <a href="../../../../../puzzles/">Puzzles</a>
-                </li>
-                <li>
-                  <a href="../../../../../about/">About</a>
-                </li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li>
-                  <a href="../../../../../resume/">CV/Resume</a>
-                </li>
-              </ul>
-              <!-- %li -->
-              <!-- %a{href:"/contact/"} Contact -->
-            </div>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-offset-1 col-lg-10">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../../../../../">StevenClontz.com</a>
+          <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
+        <div class="navbar-collapse collapse navbar-inverse-collapse">
+          <ul class="nav navbar-nav">
+<li>
+              <a href="../../../../">Blog</a>
+            </li>
+            <li>
+              <a href="../../../../../math/">Math</a>
+            </li>
+            <li>
+              <a href="../../../../../teaching/">Teaching</a>
+            </li>
+            <li>
+              <a href="../../../../../code/">Code</a>
+            </li>
+            <li>
+              <a href="../../../../../puzzles/">Puzzles</a>
+            </li>
+            <li>
+              <a href="../../../../../about/">About</a>
+            </li>
+          </ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+              <a href="../../../../../resume/">CV/Resume</a>
+            </li>
+          </ul>
+<!-- %li --><!-- %a{href:"/contact/"} Contact -->
+</div>
       </div>
     </div>
+  </div>
+</div>
     <div class="container" id="main">
       <div class="row">
         <div class="col-lg-offset-1 col-lg-10">
@@ -87,116 +84,114 @@
           </h4>
           <div id="content">
             <p>While there were a few options out there for creating a nanoc item 
-            representing an “article” for use with <code>Nanoc::Helpers::Blogging</code>, I
-            rolled one myself since I had a pretty barebones need:</p>
-            
-            <!-- more -->
-            
-            <div>
-<table class="CodeRay"><tr>
-              <td class="line-numbers"><pre><a href="#n1" name="n1">1</a>
-            <a href="#n2" name="n2">2</a>
-            <a href="#n3" name="n3">3</a>
-            <a href="#n4" name="n4">4</a>
-            <a href="#n5" name="n5">5</a>
-            <a href="#n6" name="n6">6</a>
-            <a href="#n7" name="n7">7</a>
-            <a href="#n8" name="n8">8</a>
-            <a href="#n9" name="n9">9</a>
-            <strong><a href="#n10" name="n10">10</a></strong>
-            <a href="#n11" name="n11">11</a>
-            <a href="#n12" name="n12">12</a>
-            <a href="#n13" name="n13">13</a>
-            <a href="#n14" name="n14">14</a>
-            <a href="#n15" name="n15">15</a>
-            <a href="#n16" name="n16">16</a>
-            <a href="#n17" name="n17">17</a>
-            <a href="#n18" name="n18">18</a>
-            <a href="#n19" name="n19">19</a>
-            <strong><a href="#n20" name="n20">20</a></strong>
-            <a href="#n21" name="n21">21</a>
-            <a href="#n22" name="n22">22</a>
-            <a href="#n23" name="n23">23</a>
-            <a href="#n24" name="n24">24</a>
-            <a href="#n25" name="n25">25</a>
-            <a href="#n26" name="n26">26</a>
-            <a href="#n27" name="n27">27</a>
-            <a href="#n28" name="n28">28</a>
-            <a href="#n29" name="n29">29</a>
-            <strong><a href="#n30" name="n30">30</a></strong>
-            <a href="#n31" name="n31">31</a>
-            <a href="#n32" name="n32">32</a>
-            <a href="#n33" name="n33">33</a>
-            <a href="#n34" name="n34">34</a>
-            <a href="#n35" name="n35">35</a>
-            <a href="#n36" name="n36">36</a>
-            <a href="#n37" name="n37">37</a>
-            <a href="#n38" name="n38">38</a>
-            <a href="#n39" name="n39">39</a>
-            <strong><a href="#n40" name="n40">40</a></strong>
-            <a href="#n41" name="n41">41</a>
-            <a href="#n42" name="n42">42</a>
-            <a href="#n43" name="n43">43</a>
-            <a href="#n44" name="n44">44</a>
-            <a href="#n45" name="n45">45</a>
-            <a href="#n46" name="n46">46</a>
-            <a href="#n47" name="n47">47</a>
-            <a href="#n48" name="n48">48</a>
-            </pre></td>
-              <td class="code"><pre>name        <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">create-blog</span><span style="color:#710">'</span></span>
-            usage       <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">create-blog [name] -d [date]</span><span style="color:#710">'</span></span>
-            aliases     <span style="color:#A60">:cb</span>, <span style="color:#A60">:create_blog</span>
-            summary     <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">creates a blog post item</span><span style="color:#710">'</span></span>
-            description <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&lt;&lt;-DESC</span></span> <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#D20">
-            Creates /content/_posts/{year}-{month}-{date}-{slug}.md for editing
-            as a blog post. The slug comes from the given title, and the date
-            can be optionally provided or derived from the current date.</span><span style="color:#710">
-            DESC</span></span>
-            
-            flag <span style="color:#A60">:h</span>, <span style="color:#A60">:help</span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">show help for this command</span><span style="color:#710">'</span></span> <span style="color:#080;font-weight:bold">do</span> |value, cmd|
-              puts cmd.help
-              exit <span style="color:#00D">0</span>
-            <span style="color:#080;font-weight:bold">end</span>
-            
-            opt <span style="color:#A60">:c</span>, <span style="color:#A60">:created</span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">provide created_at datetime</span><span style="color:#710">'</span></span>, <span style="color:#606">argument</span>: <span style="color:#A60">:optional</span>
-            
-            run <span style="color:#080;font-weight:bold">do</span> |opts, args, cmd|
-              <span style="color:#080;font-weight:bold">if</span> opts[<span style="color:#A60">:created</span>]
-                date = opts[<span style="color:#A60">:created</span>]
-                <span style="color:#080;font-weight:bold">begin</span>
-                  created_at = <span style="color:#036;font-weight:bold">DateTime</span>.parse(date)
-                <span style="color:#080;font-weight:bold">rescue</span> 
-                  puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">Invalid datetime (</span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span>date<span style="font-weight:bold;color:#666">}</span></span><span style="color:#D20">)! Using current time instead.</span><span style="color:#710">"</span></span>
-                  created_at = <span style="color:#036;font-weight:bold">DateTime</span>.now
-                <span style="color:#080;font-weight:bold">end</span>
-              <span style="color:#080;font-weight:bold">else</span>
-                created_at = <span style="color:#036;font-weight:bold">DateTime</span>.now
-              <span style="color:#080;font-weight:bold">end</span>
-              
-              created_date = created_at.strftime(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">%Y-%m-%d</span><span style="color:#710">"</span></span>) 
-              created_time = created_at.strftime(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">%Y-%m-%d %H:%M</span><span style="color:#710">"</span></span>) 
-            
-              title = args[<span style="color:#00D">0</span>]
-              require <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">slugify</span><span style="color:#710">'</span></span>
-              slug = title.slugify
-              
-              file = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">content/_posts/</span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span>created_date<span style="font-weight:bold;color:#666">}</span></span><span style="color:#D20">-</span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span>slug<span style="font-weight:bold;color:#666">}</span></span><span style="color:#D20">.md</span><span style="color:#710">"</span></span>
-            
-              puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">Creating new blog post: </span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span>file<span style="font-weight:bold;color:#666">}</span></span><span style="color:#710">"</span></span>
-              open(file, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">w</span><span style="color:#710">'</span></span>) <span style="color:#080;font-weight:bold">do</span> |blog|
-                blog.puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">---</span><span style="color:#710">"</span></span>
-                blog.puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">title: </span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span>title<span style="font-weight:bold;color:#666">}</span></span><span style="color:#710">"</span></span>
-                blog.puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">created_at: </span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span>created_time<span style="font-weight:bold;color:#666">}</span></span><span style="color:#710">"</span></span>
-                blog.puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">kind: article</span><span style="color:#710">"</span></span>
-                blog.puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">---</span><span style="color:#b0b">\n</span><span style="color:#b0b">\n</span><span style="color:#710">"</span></span>
-              <span style="color:#080;font-weight:bold">end</span>
-            <span style="color:#080;font-weight:bold">end</span>
-            </pre></td>
-            </tr></table>
-            </div>
-            
-            <p>Toss the above into <code>/commands/create-blog.rb</code>, install the <code>slugify</code> gem,
-            and run <code>nanoc create_blog "Hello world"</code> to try it out.</p>
+representing an “article” for use with <code>Nanoc::Helpers::Blogging</code>, I
+rolled one myself since I had a pretty barebones need:</p>
+
+<!-- more -->
+
+<div><table class="CodeRay"><tr>
+<td class="line-numbers"><pre><a href="#n1" name="n1">1</a>
+<a href="#n2" name="n2">2</a>
+<a href="#n3" name="n3">3</a>
+<a href="#n4" name="n4">4</a>
+<a href="#n5" name="n5">5</a>
+<a href="#n6" name="n6">6</a>
+<a href="#n7" name="n7">7</a>
+<a href="#n8" name="n8">8</a>
+<a href="#n9" name="n9">9</a>
+<strong><a href="#n10" name="n10">10</a></strong>
+<a href="#n11" name="n11">11</a>
+<a href="#n12" name="n12">12</a>
+<a href="#n13" name="n13">13</a>
+<a href="#n14" name="n14">14</a>
+<a href="#n15" name="n15">15</a>
+<a href="#n16" name="n16">16</a>
+<a href="#n17" name="n17">17</a>
+<a href="#n18" name="n18">18</a>
+<a href="#n19" name="n19">19</a>
+<strong><a href="#n20" name="n20">20</a></strong>
+<a href="#n21" name="n21">21</a>
+<a href="#n22" name="n22">22</a>
+<a href="#n23" name="n23">23</a>
+<a href="#n24" name="n24">24</a>
+<a href="#n25" name="n25">25</a>
+<a href="#n26" name="n26">26</a>
+<a href="#n27" name="n27">27</a>
+<a href="#n28" name="n28">28</a>
+<a href="#n29" name="n29">29</a>
+<strong><a href="#n30" name="n30">30</a></strong>
+<a href="#n31" name="n31">31</a>
+<a href="#n32" name="n32">32</a>
+<a href="#n33" name="n33">33</a>
+<a href="#n34" name="n34">34</a>
+<a href="#n35" name="n35">35</a>
+<a href="#n36" name="n36">36</a>
+<a href="#n37" name="n37">37</a>
+<a href="#n38" name="n38">38</a>
+<a href="#n39" name="n39">39</a>
+<strong><a href="#n40" name="n40">40</a></strong>
+<a href="#n41" name="n41">41</a>
+<a href="#n42" name="n42">42</a>
+<a href="#n43" name="n43">43</a>
+<a href="#n44" name="n44">44</a>
+<a href="#n45" name="n45">45</a>
+<a href="#n46" name="n46">46</a>
+<a href="#n47" name="n47">47</a>
+<a href="#n48" name="n48">48</a>
+</pre></td>
+  <td class="code"><pre>name        <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">create-blog</span><span style="color:#710">'</span></span>
+usage       <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">create-blog [name] -d [date]</span><span style="color:#710">'</span></span>
+aliases     <span style="color:#A60">:cb</span>, <span style="color:#A60">:create_blog</span>
+summary     <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">creates a blog post item</span><span style="color:#710">'</span></span>
+description <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&lt;&lt;-DESC</span></span> <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#D20">
+Creates /content/_posts/{year}-{month}-{date}-{slug}.md for editing
+as a blog post. The slug comes from the given title, and the date
+can be optionally provided or derived from the current date.</span><span style="color:#710">
+DESC</span></span>
+
+flag <span style="color:#A60">:h</span>, <span style="color:#A60">:help</span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">show help for this command</span><span style="color:#710">'</span></span> <span style="color:#080;font-weight:bold">do</span> |value, cmd|
+  puts cmd.help
+  exit <span style="color:#00D">0</span>
+<span style="color:#080;font-weight:bold">end</span>
+
+opt <span style="color:#A60">:c</span>, <span style="color:#A60">:created</span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">provide created_at datetime</span><span style="color:#710">'</span></span>, <span style="color:#606">argument</span>: <span style="color:#A60">:optional</span>
+
+run <span style="color:#080;font-weight:bold">do</span> |opts, args, cmd|
+  <span style="color:#080;font-weight:bold">if</span> opts[<span style="color:#A60">:created</span>]
+    date = opts[<span style="color:#A60">:created</span>]
+    <span style="color:#080;font-weight:bold">begin</span>
+      created_at = <span style="color:#036;font-weight:bold">DateTime</span>.parse(date)
+    <span style="color:#080;font-weight:bold">rescue</span> 
+      puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">Invalid datetime (</span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span>date<span style="font-weight:bold;color:#666">}</span></span><span style="color:#D20">)! Using current time instead.</span><span style="color:#710">"</span></span>
+      created_at = <span style="color:#036;font-weight:bold">DateTime</span>.now
+    <span style="color:#080;font-weight:bold">end</span>
+  <span style="color:#080;font-weight:bold">else</span>
+    created_at = <span style="color:#036;font-weight:bold">DateTime</span>.now
+  <span style="color:#080;font-weight:bold">end</span>
+  
+  created_date = created_at.strftime(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">%Y-%m-%d</span><span style="color:#710">"</span></span>) 
+  created_time = created_at.strftime(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">%Y-%m-%d %H:%M</span><span style="color:#710">"</span></span>) 
+
+  title = args[<span style="color:#00D">0</span>]
+  require <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">slugify</span><span style="color:#710">'</span></span>
+  slug = title.slugify
+  
+  file = <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">content/_posts/</span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span>created_date<span style="font-weight:bold;color:#666">}</span></span><span style="color:#D20">-</span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span>slug<span style="font-weight:bold;color:#666">}</span></span><span style="color:#D20">.md</span><span style="color:#710">"</span></span>
+
+  puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">Creating new blog post: </span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span>file<span style="font-weight:bold;color:#666">}</span></span><span style="color:#710">"</span></span>
+  open(file, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">w</span><span style="color:#710">'</span></span>) <span style="color:#080;font-weight:bold">do</span> |blog|
+    blog.puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">---</span><span style="color:#710">"</span></span>
+    blog.puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">title: </span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span>title<span style="font-weight:bold;color:#666">}</span></span><span style="color:#710">"</span></span>
+    blog.puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">created_at: </span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span>created_time<span style="font-weight:bold;color:#666">}</span></span><span style="color:#710">"</span></span>
+    blog.puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">kind: article</span><span style="color:#710">"</span></span>
+    blog.puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">"</span><span style="color:#D20">---</span><span style="color:#b0b">\n</span><span style="color:#b0b">\n</span><span style="color:#710">"</span></span>
+  <span style="color:#080;font-weight:bold">end</span>
+<span style="color:#080;font-weight:bold">end</span>
+</pre></td>
+</tr></table></div>
+
+<p>Toss the above into <code>/commands/create-blog.rb</code>, install the <code>slugify</code> gem,
+and run <code>nanoc create_blog "Hello world"</code> to try it out.</p>
           </div>
           <p>
             <small>
@@ -208,10 +203,9 @@
         </div>
       </div>
     </div>
-    <section class="container" id="footer">
-      <p>
+    <section class="container" id="footer"><p>
         Content ©
-        2014
+        2015
         <a href="../../../../../contact/">Steven Clontz</a>
         | Check out my
         <a href="http://github.com/StevenClontz/StevenClontz.com">GitHub</a>
@@ -223,5 +217,5 @@
         <a href="http://nanoc.ws">nanoc</a>
       </p>
     </section>
-  </body>
+</body>
 </html>
