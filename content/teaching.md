@@ -14,9 +14,78 @@ While at Auburn University, I had the opportunity to work with hundreds of stude
 
 ![](/assets/images/teaching.jpg)
 
+### Spring 2015
+
+During this semester (my last at Auburn University), I stepped out of my
+comfort zone by changing from a lecture-style course to an active learning
+classroom. Rather than lecturing, most days the class worked in small groups
+(5 to 6 students) on worksheets I had previously prepared. I was able to
+use this time to work on students' specific questions within their
+groups, rather than attempting to lecture to a class of students at
+different competency levels.
+
+Overall the skills my students showed on their final exam were no worse than
+previous semesters; however, there are still many places I will improve on
+next semester. Student response to the experience was varied. Some of the
+complaints may be tied to requirment that students had to use
+<http://overleaf.com> to typeset solutions to worksheets rather than the
+active learning environment itself.
+
+Survey results from two classes: 11/27 and 12/27 responded from each.
+
+* The Instructor encouraged me to think critically.
+  **5.1/6.0** and **5.3/6.0**
+* The grading techniques were fair.
+  **5.0/6.0** and **4.3/6.0**
+* The Instructor created a conducive atmosphere for learning.
+  **4.9/6.0** and **4.7/6.0**
+* The Instructor explained course material clearly.
+  **4.3/6.0** and **3.9/6.0**
+* The Instructor enhanced my interest in the subject.
+  **4.3/6.0** and **4.2/6.0**
+* The Instructor was available and approachable outside of class.
+  **5.5/6.0** and **5.5/6.0**
+* The Instructor provided timely feedback on graded material.
+  **5.5/6.0** and **5.3/6.0**
+* The Instructor’s overall teaching effectiveness was...
+  **4.4/6.0** and **4.3/6.0**
+* Overall, my learning in the class was...
+  **4.5/6.0** and **4.4/6.0**
+
+Written comments follow. It's interesting that many aspects of the course were
+viewed positively by some and negatively by others.
+
+> I enjoyed the structure of the class.
+
+> The style that the class was taught in (group learning), I found to be harder than if taught traditionally. I eventually degraded to having to learn from the book to do the problems. Then, after me learning from the book, I had to teach other people that couldn't learn it either.
+
+> Very poor teaching style. Instructor would give us a packet online for us to work on in groups and would never lecture on the material. However he was very helpful if you went to see him during his office hours but I was not always able to make them. I think this is a very poor teaching method to send students off on their own when learning new material that is completely foreign to the whole class. I felt as if I was taking an online class and learned everything from the internet. This is one of the worst teaching methods I have ever experienced.
+
+> Much better than the CAL 3 class I took last year
+
+> Mr. Clontz did the reversed classroom. This worked well in some ways and poorly in others. Essentially, I did not learn nearly as well as I did from a normal classroom. My method for learning was watching Khan Academy videos and reading online just to be able to decently answer the questions on his "packets." From this point, I just used the packets to finish learning the materials. He would answer questions in class but I feel like this was just scratching the surface of the material. Mr. Clontz was a great guy and I thoroughly enjoyed him as a person, however I just didn't fully enjoy his teaching style. Also, he grading scale was "interesting." It was very beneficial for students doing poorly in the class but it was not very beneficial for the students doing great in his class. From his scale, a student could score perfectly on everything before the final and still have to make an 80% on the final to make an A in the class. Of course, a student who made a 100 on everything before would not have too much of a problem with the material. However, if I were a student who had made 100s on everything before I would probably be wanting to have more "wiggle room" on the final to make an A. This would allow me to spend my time studying for my other finals whereas now I would still have to study for this one a substantial amount.
+
+> Nothing wrong with having a more student led class, but overleaf can be very annoying and time consuming. Apart from overleaf, the class was fine.
+
+> Group work did not go well because several individuals never did their part/contributed. The final should not be worth more than 35% of your grade. The lectures were hard to follow and were not significantly helpful for the questions in the packet. The different learning style is a great idea, but its execution was not good. Mr. Clontz did the best he could to make it reasonable and fair, but it did not always work well. You can tell he really loves mathematics.
+
+> I wish that you used the standard lecture model class, and the final should not be the entire grade. Very stressful.
+
+> This was an interesting style of class. I think that if it is implemented more frequently, it could really help future students understand and retain the material.
+
+> I like the way this class was graded up to an extent. I don't think that it's entirely fair that someone can still get a good grade for teamwork on the homework packets when they barely showed up to class to help work on the packet.
+
+> I truly did enjoy that students had to truly teach themselves the material and apply it in order to solve problems in this class. However, I felt that the majority of the time I spent in class was trying to understand what the question was asking and the material needed to solve the problem, as there was little to no lecture on subject.
+I did not like the use of computer coding in the class. It was very time consuming and difficult to work with, as one error in the code would cause others in the group to not be able to enter in work. I also did not like the use of groups to work on these online packets. While I agree that working in teams is an extremely useful tool to have, when there is not a strict attendance policy, it does not work. The majority of the time, half of my group did not come to class, leaving the other half to do the majority of the work for the online packet and causing a high level of stress. In addition, I did not think it was fair that to receive an A for the class someone who consistently came to class needed an 84% on the final while someone who rarely come needed an 85%. That is absolutely ridiculous.
+Mr. Clontz, however, is a wonderful teacher and man that cares a great deal about the material being taught and about the learning of his students. He always was available for help if needed and answered questions quickly and efficiently. I would've liked to see example problems resembling problems in the packet done more often, as I believe that would've helped out the class much more.
+
+> The instructor's teaching effectiveness was, I would say non existent. He tried to implement this new technique of learn it all on our own, it did not work very well. I feel as though he was more worried about constructing his thesis than teaching us in class, which he decided to allow us to teach ourselves through this "packet" system which he created. It was not a bad idea, but I think it wasted more of our time and his. If he would have taught the class like a normal instructor or the way he did it previously, I would have learned so much better and could walk away from the class with a greater knowledge in cal 3. I like him as a person and have heard great things about his teaching, but this semester in cal 3 his teaching methods were far below what i expected.
+
+> Great grading system. Great guy. Great class.
+
 ### Fall 2014
 
-Survey results from 23 of 52 students:
+Compiled results from 23 of 52 students:
 
 * The Instructor encouraged me to think critically.
   **5.8/6.0**
