@@ -66,6 +66,61 @@ Selected qualitative comments from both sections:
 
 > you did great
 
+#### Calculus IV
+
+* Overall, I learned a lot in this course.
+  **4.00/5.00**
+* Overall, this instructor was effective.
+  **3.86/5.00**
+* My instructor was prepared for class.
+  **4.21/5.00**
+* My instructor's teaching strategies helped me to understand course content.
+  **3.86/5.00**
+* My instructor effectively challenged my thinking about the subject matter.
+  **4.00/5.00**
+* My instructor provided timely feedback on class performance and course
+  assignments.
+  **4.50/5.00**
+* My instructor provided useful feedback on class performance and course
+  assignments.
+  **4.50/5.00**
+* My instructor used grading methods that were fair.
+  **4.43/5.00**
+* My instructor treated all of the students in the class with respect.
+  **4.86/5.00**
+* My instructor was readily available for consultation (e.g. during office
+  hours, by email, or otherwise).
+  **4.79/5.00**
+* Overall, I would rate this course:
+  **4.14/5.00**
+* Overall, I would rate this instructor as:
+  **4.14/5.00**
+
+Selected qualitative comments:
+
+> The instruction was quite good on the whole. I thought the professor did an
+  excellent job of only concerning himself with the most
+  important concepts. There was added value in coming to lecture when compared
+  to just learning the concepts through self study, something I've found
+  increasingly rare in my time here at Charlotte. The only thing that I found
+  difficult was that the professor made
+  quite a few 'math errors' so to speak. Dropping negatives, incorrect bounds,
+  etc. These small details are just that - small - but can
+  make it a little more difficult as a learner being exposed to them for the
+  first time. Still, Dr. Clontz was excellent compared to most.
+
+> I appreciated that he took time at the beginning of each lecture to answer
+  homework questions. That was very beneficial, and he seemed very receptive
+  when questions were asked in class. Sometimes he would ask questions in the
+  homework that he didn't know how to answer, though, which struck me as a
+  little strange. *(Ed. note: didn't know how to answer immediately, of
+  course, but for a class of math majors I thought it better to show the
+  process of how to figure out a problem without having a memorized
+  solution.)*
+
+> Very straightforward and candid about how grading works.
+
+
 ### Spring 2015
 
 During this semester (my last at Auburn University), I stepped out of my
