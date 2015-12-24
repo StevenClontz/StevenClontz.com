@@ -10,7 +10,11 @@ I love teaching! I trace my interest in education back to my teenage years spent
 
 ## Teaching Evaluations
 
-While at Auburn University, I had the opportunity to work with hundreds of students as the instructor of several Calculus courses. I think that I've done well overall, and this is reflected by the evaluations they've left me. I've included excerpts from my last four semesters at Auburn below.
+While at Auburn University and later at UNC Charlotte, I've had the
+opportunity to work with hundreds of students as the instructor of
+several mathematics courses. I think that I've done well overall, and this
+is reflected by the evaluations they've left me. I've included excerpts
+from each semester I've taught since Fall 2012 below.
 
 ![](/assets/images/teaching.jpg)
 
