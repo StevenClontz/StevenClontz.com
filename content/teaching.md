@@ -14,6 +14,58 @@ While at Auburn University, I had the opportunity to work with hundreds of stude
 
 ![](/assets/images/teaching.jpg)
 
+### Fall 2016
+
+This was my first semester as a professor at UNC Charlotte. I used a
+traditional lecture style approach in two sections of a
+Calculus for Engineering Technology
+introductory course for future technicians, and a Calculus IV course covering
+applications of vector calculus for math majors.
+
+#### Calc. for Eng. Tech
+
+* Overall, I learned a lot in this course.
+  **4.00/5.00** and **4.00/5.00**
+* Overall, this instructor was effective.
+  **4.38/5.00** and **4.10/5.00**
+* My instructor was prepared for class.
+  **4.54/5.00** and **4.60/5.00**
+* My instructor's teaching strategies helped me to understand course content.
+  **4.31/5.00** and **4.00/5.00**
+* My instructor effectively challenged my thinking about the subject matter.
+  **4.31/5.00** and **4.30/5.00**
+* My instructor provided timely feedback on class performance and course
+  assignments.
+  **4.77/5.00** and **4.20/5.00**
+* My instructor provided useful feedback on class performance and course
+  assignments.
+  **4.77/5.00** and **4.00/5.00**
+* My instructor used grading methods that were fair.
+  **4.77/5.00** and **3.90/5.00**
+* My instructor treated all of the students in the class with respect.
+  **4.92/5.00** and **4.80/5.00**
+* My instructor was readily available for consultation (e.g. during office
+  hours, by email, or otherwise).
+  **4.92/5.00** and **4.60/5.00**
+* Overall, I would rate this course:
+  **4.31/5.00** and **3.90/5.00**
+* Overall, I would rate this instructor as:
+  **4.46/5.00** and **4.40/5.00**
+
+Selected qualitative comments from both sections:
+
+> He does great and studies his material before class
+
+> He wanted to make sure everyone passed.
+
+> One of the best professors I have ever had. I have learned so much from this
+  class and enjoyed it a lot. I wish I have teachers like
+  Mr. Clontz in every class.
+
+> Proving notes to the students could be a little clearer and organized but other than that he was a good teacher.
+
+> you did great
+
 ### Spring 2015
 
 During this semester (my last at Auburn University), I stepped out of my
@@ -85,7 +137,7 @@ Mr. Clontz, however, is a wonderful teacher and man that cares a great deal abou
 
 ### Fall 2014
 
-Compiled results from 23 of 52 students:
+Compiled results from 23 of 52 students in a Calculus II course:
 
 * The Instructor encouraged me to think critically.
   **5.8/6.0**
